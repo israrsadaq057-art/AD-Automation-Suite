@@ -40,7 +40,7 @@ This project is a **complete Active Directory Automation Suite** built for **Res
 | **Interactive Dashboard** | HTML/CSS/JS dashboard with clickable employee profiles |
 | **PowerShell Automation** | 10+ scripts for AD management, GPO automation, and backup |
 
----
+```
 
 ## 📁 Project Structure
 AD-Automation-Suite/
@@ -68,10 +68,8 @@ AD-Automation-Suite/
 ├── logs/ # All operation logs
 ├── backup/ # AD backup files
 └── README.md # This file
+```
 
-text
-
----
 
 ## 🏢 Department Structure
 
