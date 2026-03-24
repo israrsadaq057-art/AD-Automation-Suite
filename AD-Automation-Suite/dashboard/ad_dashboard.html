@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Academia - Active Directory Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        /* Header */
+        .header {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #1e3c72;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        
+        .header .subtitle {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .stats-badge {
+            display: inline-block;
+            background: #1e3c72;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-right: 10px;
+        }
+        
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-number {
+            font-size: 42px;
+            font-weight: bold;
+            color: #1e3c72;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        
+        .stat-icon {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        /* Department Cards */
+        .section-title {
+            font-size: 22px;
+            color: white;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-left: 4px solid #ffd700;
+        }
+        
+        .department-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .department-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+        
+        .department-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .department-header {
+            padding: 20px;
+            color: white;
+            position: relative;
+        }
+        
+        .department-header.it { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .department-header.finance { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .department-header.marketing { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .department-header.teachers { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .department-header.students { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .department-header.admin { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); }
+        
+        .department-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .department-count {
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .department-body {
+            padding: 15px;
+        }
+        
+        .user-list {
+            list-style: none;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        
+        .user-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .user-name {
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .user-title {
+            font-size: 11px;
+            color: #999;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        
+        .badge-active {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        /* Groups Section */
+        .groups-section {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .groups-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .group-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 15px;
+            border-left: 4px solid #1e3c72;
+        }
+        
+        .group-name {
+            font-weight: bold;
+            color: #1e3c72;
+            margin-bottom: 5px;
+        }
+        
+        .group-members {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        /* Charts */
+        .charts-section {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+        
+        .chart-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        .chart-box {
+            text-align: center;
+        }
+        
+        .chart-box canvas {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        /* Refresh Button */
+        .refresh-btn {
+            background: #ffd700;
+            color: #1e3c72;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        
+        .refresh-btn:hover {
+            background: #ffed4e;
+            transform: scale(1.02);
+        }
+        
+        .last-updated {
+            font-size: 11px;
+            color: #999;
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .chart-container {
+                grid-template-columns: 1fr;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .stat-card, .department-card, .groups-section, .charts-section {
+            animation: fadeIn 0.5s ease-out;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        <h1>🏢 Resource Academia International</h1>
+        <div class="subtitle">Active Directory Management Dashboard</div>
+        <div>
+            <span class="stats-badge">🏢 Network Engineer: Israr Sadaq</span>
+            <span class="stats-badge">📍 Berlin, Germany</span>
+            <span class="stats-badge">📅 Live Dashboard</span>
+        </div>
+        <button class="refresh-btn" onclick="loadADData()">🔄 Refresh Data</button>
+        <div class="last-updated" id="lastUpdated">Last updated: Loading...</div>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="stats-grid" id="statsGrid">
+        <div class="stat-card">
+            <div class="stat-icon">👥</div>
+            <div class="stat-number" id="totalUsers">0</div>
+            <div class="stat-label">Total Users</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">🏢</div>
+            <div class="stat-number" id="totalDepartments">0</div>
+            <div class="stat-label">Departments</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">👥</div>
+            <div class="stat-number" id="totalGroups">0</div>
+            <div class="stat-label">Security Groups</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">✅</div>
+            <div class="stat-number" id="activeUsers">0</div>
+            <div class="stat-label">Active Users</div>
+        </div>
+    </div>
+
+    <!-- Department Cards -->
+    <h2 class="section-title">📁 Departments Overview</h2>
+    <div class="department-grid" id="departmentGrid">
+        <!-- Departments will be loaded here -->
+    </div>
+
+    <!-- Security Groups -->
+    <div class="groups-section">
+        <h2>🔐 Security Groups</h2>
+        <div class="groups-grid" id="groupsGrid">
+            <!-- Groups will be loaded here -->
+        </div>
+    </div>
+
+    <!-- Charts Section -->
+    <div class="charts-section">
+        <h2>📊 Statistics & Analytics</h2>
+        <div class="chart-container">
+            <div class="chart-box">
+                <canvas id="deptChart" width="400" height="300"></canvas>
+                <p style="margin-top: 10px;">Users by Department</p>
+            </div>
+            <div class="chart-box">
+                <canvas id="groupChart" width="400" height="300"></canvas>
+                <p style="margin-top: 10px;">Group Memberships</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2026 Resource Academia International | Active Directory Management System</p>
+        <p>Built with PowerShell Automation | Network Engineer: Israr Sadaq</p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // AD Data (will be populated from JSON)
+    let adData = {
+        departments: {},
+        groups: [],
+        statistics: {}
+    };
+    
+    let deptChart = null;
+    let groupChart = null;
+    
+    // Load data from the JSON file generated by PowerShell
+    async function loadADData() {
+        try {
+            // Try to load from generated JSON file
+            const response = await fetch('ad_data.json?_=' + new Date().getTime());
+            if (response.ok) {
+                adData = await response.json();
+                updateDashboard();
+            } else {
+                // Use embedded demo data
+                loadDemoData();
+            }
+        } catch (error) {
+            console.log('Using demo data');
+            loadDemoData();
+        }
+    }
+    
+    function loadDemoData() {
+        // Department data based on our 100-user CSV
+        adData = {
+            statistics: {
+                total_users: 100,
+                total_departments: 6,
+                total_groups: 12,
+                active_users: 100
+            },
+            departments: {
+                "IT": { count: 15, color: "#667eea", users: [
+                    "Ahmed Hassan (IT Director)", "Fatima Ali (Network Admin)", "Omar Khan (System Admin)",
+                    "Sara Ahmed (Help Desk)", "Usman Malik (Network Engineer)", "Zara Khan (System Engineer)",
+                    "Bilal Hassan (Help Desk)", "Ayesha Riaz (IT Support)", "Hamza Ali (DB Admin)",
+                    "Sana Khan (Security Analyst)", "Ali Raza (Cloud Engineer)", "Hina Tariq (DevOps)",
+                    "Imran Ali (Project Manager)", "Rabia Khan (Business Analyst)", "Zain Malik (IT Trainer)"
+                ]},
+                "Finance": { count: 12, color: "#f093fb", users: [
+                    "Omar Malik (Finance Director)", "Saima Akhtar (Senior Accountant)", "Ali Raza (Accountant)",
+                    "Nadia Shah (Payroll)", "Zain Malik (Auditor)", "Sana Ahmed (Budget Analyst)",
+                    "Hina Tariq (Tax Specialist)", "Usman Chaudhry (Accounts Receivable)", "Rabia Khan (Accounts Payable)",
+                    "Imran Ali (Financial Analyst)", "Bilal Hassan (Treasury)", "Fatima Zahra (Risk Analyst)"
+                ]},
+                "Marketing": { count: 12, color: "#4facfe", users: [
+                    "Zain Malik (Marketing Director)", "Ayesha Riaz (Digital Marketing)", "Hamza Ali (Content Creator)",
+                    "Sana Khan (Social Media)", "Bilal Hassan (SEO)", "Fatima Zahra (Graphic Designer)",
+                    "Ali Hassan (Video Editor)", "Sara Ahmed (Email Marketing)", "Usman Malik (Marketing Analyst)",
+                    "Zara Khan (Brand Manager)", "Omar Khan (PR Specialist)", "Nadia Shah (Market Research)"
+                ]},
+                "Teachers": { count: 20, color: "#43e97b", users: [
+                    "Dr. Muhammad Raza (Professor CS)", "Ms. Sara Ahmed (Senior Lecturer)", "Dr. Ali Hassan (Professor Math)",
+                    "Mr. Khalid Malik (Lecturer Networking)", "Ms. Fatima Zahra (Lecturer Programming)",
+                    "Dr. Ayesha Riaz (Associate Professor)", "Dr. Omar Khan (Professor Physics)", "Mr. Hamza Ali (Lecturer Math)",
+                    "Ms. Sana Khan (Lecturer English)", "Dr. Bilal Hassan (Associate Professor)", "Prof. Ahmed Hassan (Chemistry)",
+                    "Dr. Fatima Ali (Biology)", "Prof. Usman Malik (Economics)", "Dr. Zara Khan (Business)",
+                    "Prof. Ali Raza (Psychology)", "Dr. Hina Tariq (History)", "Prof. Imran Ali (Law)",
+                    "Dr. Rabia Khan (Statistics)", "Prof. Saima Akhtar (Engineering)", "Dr. Zain Malik (Design)"
+                ]},
+                "Students": { count: 35, color: "#fa709a", users: [
+                    "Ali Raza (BS CS)", "Fatima Khan (BS IT)", "Omar Malik (BS SE)", "Sara Ahmed (BS AI)",
+                    "Hamza Ali (BS DS)", "Ayesha Riaz (BS Cyber)", "Bilal Hassan (MS CS)", "Zara Khan (MS IT)",
+                    "Usman Shah (PhD CS)", "Hina Malik (BS Economics)", "Imran Ali (BS Business)", "Rabia Khan (BS Accounting)",
+                    "Sana Ahmed (BS CS)", "Zain Malik (BS IT)", "Nadia Shah (BS SE)", "Khalid Hassan (BS AI)",
+                    "Fatima Zahra (BS DS)", "Ali Hassan (BS Cyber)", "Sara Khan (MS CS)", "Usman Malik (MS IT)"
+                ]},
+                "Admin": { count: 6, color: "#30cfd0", users: [
+                    "Hina Tariq (HR Director)", "Usman Chaudhry (Admin Officer)", "Rabia Khan (Receptionist)",
+                    "Imran Ali (Facility Manager)", "Sana Khan (HR Generalist)", "Bilal Hassan (Admin Assistant)"
+                ]}
+            },
+            groups: [
+                { name: "IT_Admins", members: 10, description: "Full IT administration rights" },
+                { name: "Network_Admins", members: 5, description: "Network device management" },
+                { name: "Help_Desk", members: 4, description: "User support staff" },
+                { name: "Finance_Staff", members: 12, description: "Financial systems access" },
+                { name: "Marketing_Staff", members: 12, description: "Marketing tools access" },
+                { name: "Faculty", members: 20, description: "Teaching resources access" },
+                { name: "Students", members: 35, description: "Lab and library access" },
+                { name: "Admin_Staff", members: 6, description: "Administrative systems access" },
+                { name: "VPN_Users", members: 45, description: "Remote access" },
+                { name: "WiFi_Access", members: 85, description: "Wireless network access" },
+                { name: "Lab_Access", members: 35, description: "Computer lab access" },
+                { name: "Library_Access", members: 55, description: "Digital library access" }
+            ]
+        };
+        updateDashboard();
+    }
+    
+    function updateDashboard() {
+        // Update stats
+        document.getElementById('totalUsers').textContent = adData.statistics.total_users;
+        document.getElementById('totalDepartments').textContent = adData.statistics.total_departments;
+        document.getElementById('totalGroups').textContent = adData.statistics.total_groups;
+        document.getElementById('activeUsers').textContent = adData.statistics.active_users;
+        document.getElementById('lastUpdated').textContent = 'Last updated: ' + new Date().toLocaleString();
+        
+        // Update department cards
+        const deptGrid = document.getElementById('departmentGrid');
+        deptGrid.innerHTML = '';
+        
+        const deptOrder = ['IT', 'Finance', 'Marketing', 'Teachers', 'Students', 'Admin'];
+        const deptColors = {
+            'IT': 'it', 'Finance': 'finance', 'Marketing': 'marketing',
+            'Teachers': 'teachers', 'Students': 'students', 'Admin': 'admin'
+        };
+        
+        for (const dept of deptOrder) {
+            if (adData.departments[dept]) {
+                const deptData = adData.departments[dept];
+                const userList = deptData.users.slice(0, 8).map(user => 
+                    `<li><span class="user-name">${user}</span></li>`
+                ).join('');
+                
+                const moreCount = deptData.users.length - 8;
+                const moreHtml = moreCount > 0 ? `<li style="text-align: center; color: #1e3c72;">+${moreCount} more...</li>` : '';
+                
+                deptGrid.innerHTML += `
+                    <div class="department-card">
+                        <div class="department-header ${deptColors[dept]}">
+                            <div class="department-name">${dept}</div>
+                            <div class="department-count">${deptData.count} users</div>
+                        </div>
+                        <div class="department-body">
+                            <ul class="user-list">
+                                ${userList}
+                                ${moreHtml}
+                            </ul>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+        
+        // Update groups
+        const groupsGrid = document.getElementById('groupsGrid');
+        groupsGrid.innerHTML = '';
+        
+        adData.groups.slice(0, 12).forEach(group => {
+            groupsGrid.innerHTML += `
+                <div class="group-card">
+                    <div class="group-name">👥 ${group.name}</div>
+                    <div class="group-members">${group.members} members • ${group.description}</div>
+                </div>
+            `;
+        });
+        
+        // Update charts
+        updateCharts();
+    }
+    
+    function updateCharts() {
+        const deptNames = ['IT', 'Finance', 'Marketing', 'Teachers', 'Students', 'Admin'];
+        const deptCounts = deptNames.map(dept => adData.departments[dept]?.count || 0);
+        const deptColors = ['#667eea', '#f093fb', '#4facfe', '#43e97b', '#fa709a', '#30cfd0'];
+        
+        if (deptChart) deptChart.destroy();
+        if (groupChart) groupChart.destroy();
+        
+        const ctx1 = document.getElementById('deptChart').getContext('2d');
+        deptChart = new Chart(ctx1, {
+            type: 'bar',
+            data: {
+                labels: deptNames,
+                datasets: [{
+                    label: 'Number of Users',
+                    data: deptCounts,
+                    backgroundColor: deptColors,
+                    borderColor: '#fff',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: { position: 'top' },
+                    tooltip: { callbacks: { label: (ctx) => `${ctx.raw} users` } }
+                }
+            }
+        });
+        
+        const groupNames = adData.groups.slice(0, 8).map(g => g.name);
+        const groupSizes = adData.groups.slice(0, 8).map(g => g.members);
+        
+        const ctx2 = document.getElementById('groupChart').getContext('2d');
+        groupChart = new Chart(ctx2, {
+            type: 'pie',
+            data: {
+                labels: groupNames,
+                datasets: [{
+                    data: groupSizes,
+                    backgroundColor: ['#1e3c72', '#2a5298', '#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: { position: 'right', labels: { font: { size: 10 } } }
+                }
+            }
+        });
+    }
+    
+    // Load data on page load
+    loadADData();
+    
+    // Auto refresh every 60 seconds
+    setInterval(loadADData, 60000);
+</script>
+</body>
+</html>

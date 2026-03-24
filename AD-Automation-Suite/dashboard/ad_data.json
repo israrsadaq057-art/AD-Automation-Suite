@@ -1,0 +1,206 @@
+﻿{
+    "statistics":  {
+                       "locked_accounts":  2,
+                       "active_users":  98,
+                       "total_users":  100,
+                       "expiring_soon":  12
+                   },
+    "groups":  [
+                   {
+                       "description":  "Full IT administration",
+                       "name":  "IT_Admins",
+                       "members":  15
+                   },
+                   {
+                       "description":  "Network management",
+                       "name":  "Network_Admins",
+                       "members":  8
+                   },
+                   {
+                       "description":  "User support",
+                       "name":  "Help_Desk",
+                       "members":  5
+                   },
+                   {
+                       "description":  "Finance access",
+                       "name":  "Finance_Staff",
+                       "members":  12
+                   },
+                   {
+                       "description":  "Teaching resources",
+                       "name":  "Faculty",
+                       "members":  20
+                   },
+                   {
+                       "description":  "Lab access",
+                       "name":  "Students",
+                       "members":  35
+                   }
+               ],
+    "recentActivity":  [
+                           {
+                               "time":  "10:30 AM",
+                               "user":  "Ali Raza",
+                               "action":  "User created"
+                           },
+                           {
+                               "time":  "9:15 AM",
+                               "user":  "Fatima Ali",
+                               "action":  "Password changed"
+                           },
+                           {
+                               "time":  "Yesterday",
+                               "user":  "Omar Khan",
+                               "action":  "Group membership updated"
+                           }
+                       ],
+    "alerts":  [
+                   {
+                       "message":  "10 passwords expiring in the next 7 days",
+                       "time":  "2 hours ago",
+                       "type":  "warning"
+                   },
+                   {
+                       "message":  "New user onboarding completed for 5 employees",
+                       "time":  "1 day ago",
+                       "type":  "info"
+                   },
+                   {
+                       "message":  "IT_Admins group membership audit pending",
+                       "time":  "2 days ago",
+                       "type":  "warning"
+                   }
+               ],
+    "departments":  {
+                        "IT":  {
+                                   "users":  [
+                                                 "Ahmed Khan (IT Director)",
+                                                 "Fatima Malik (Network Administrator)",
+                                                 "Omar Hassan (System Administrator)",
+                                                 "Sara Ali (Help Desk Lead)",
+                                                 "Usman Ahmed (Network Engineer)",
+                                                 "Zara Raza (System Engineer)",
+                                                 "Bilal Akhtar (Help Desk Technician)",
+                                                 "Ayesha Shah (IT Support Specialist)",
+                                                 "Hamza Chaudhry (Database Administrator)",
+                                                 "Sana Tariq (Security Analyst)",
+                                                 "Ali Riaz (Cloud Engineer)",
+                                                 "Hina Zahra (DevOps Engineer)",
+                                                 "Imran Abbas (IT Project Manager)",
+                                                 "Rabia Bhatti (Business Analyst)",
+                                                 "Zain Butt (IT Trainer)"
+                                             ],
+                                   "count":  15
+                               },
+                        "Students":  {
+                                         "users":  [
+                                                       "Parveen Siddiqui (BS CS Student)",
+                                                       "Qasim Usman (BS IT Student)",
+                                                       "Rukhsana Wahid (BS SE Student)",
+                                                       "Saad Khan (BS AI Student)",
+                                                       "Tahir Malik (BS DS Student)",
+                                                       "Uzma Hassan (BS Cyber Security)",
+                                                       "Waqar Ali (MS CS Student)",
+                                                       "Yasmeen Ahmed (MS IT Student)",
+                                                       "Zafar Raza (PhD CS Student)",
+                                                       "Abrar Akhtar (BS Economics)",
+                                                       "Bushra Shah (BS Business)",
+                                                       "Danish Chaudhry (BS Accounting)",
+                                                       "Eman Tariq (BS CS Student)",
+                                                       "Ahmed Riaz (BS IT Student)",
+                                                       "Fatima Zahra (BS SE Student)",
+                                                       "Omar Abbas (BS AI Student)",
+                                                       "Sara Bhatti (BS DS Student)",
+                                                       "Usman Butt (BS Cyber Security)",
+                                                       "Zara Dar (MS CS Student)",
+                                                       "Bilal Farooq (MS IT Student)",
+                                                       "Ayesha Gill (PhD CS Student)",
+                                                       "Hamza Hashmi (BS Economics)",
+                                                       "Sana Iqbal (BS Business)",
+                                                       "Ali Javed (BS Accounting)",
+                                                       "Hina Khalid (BS CS Student)",
+                                                       "Imran Latif (BS IT Student)",
+                                                       "Rabia Mirza (BS SE Student)",
+                                                       "Zain Nawaz (BS AI Student)",
+                                                       "Saima Qureshi (BS DS Student)",
+                                                       "Khalid Rana (BS Cyber Security)",
+                                                       "Nadia Siddiqui (MS CS Student)",
+                                                       "Raza Usman (MS IT Student)",
+                                                       "Muhammad Wahid (PhD CS Student)",
+                                                       "Amina Khan (BS Economics)",
+                                                       "Hassan Malik (BS Business)"
+                                                   ],
+                                         "count":  35
+                                     },
+                        "Admin":  {
+                                      "users":  [
+                                                    "Yasmeen Butt (HR Director)",
+                                                    "Zafar Dar (Admin Officer)",
+                                                    "Abrar Farooq (Receptionist)",
+                                                    "Bushra Gill (Facility Manager)",
+                                                    "Danish Hashmi (HR Generalist)",
+                                                    "Eman Iqbal (Admin Assistant)"
+                                                ],
+                                      "count":  6
+                                  },
+                        "Teachers":  {
+                                         "users":  [
+                                                       "Ahmed Javed (Professor Computer Science)",
+                                                       "Fatima Khalid (Senior Lecturer IT)",
+                                                       "Omar Latif (Professor Mathematics)",
+                                                       "Sara Mirza (Lecturer Networking)",
+                                                       "Usman Nawaz (Lecturer Programming)",
+                                                       "Zara Qureshi (Associate Professor English)",
+                                                       "Bilal Rana (Professor Physics)",
+                                                       "Ayesha Siddiqui (Lecturer Mathematics)",
+                                                       "Hamza Usman (Lecturer English)",
+                                                       "Sana Wahid (Associate Professor CS)",
+                                                       "Ali Khan (Professor Chemistry)",
+                                                       "Hina Malik (Lecturer Biology)",
+                                                       "Imran Hassan (Professor Economics)",
+                                                       "Rabia Ali (Lecturer Business)",
+                                                       "Zain Ahmed (Professor Psychology)",
+                                                       "Saima Raza (Lecturer History)",
+                                                       "Khalid Akhtar (Associate Professor Law)",
+                                                       "Nadia Shah (Lecturer Statistics)",
+                                                       "Raza Chaudhry (Professor Engineering)",
+                                                       "Muhammad Tariq (Lecturer Design)"
+                                                   ],
+                                         "count":  20
+                                     },
+                        "Marketing":  {
+                                          "users":  [
+                                                        "Saima Dar (Marketing Director)",
+                                                        "Khalid Farooq (Digital Marketing Manager)",
+                                                        "Nadia Gill (Content Creator)",
+                                                        "Raza Hashmi (Social Media Manager)",
+                                                        "Muhammad Iqbal (SEO Specialist)",
+                                                        "Amina Javed (Graphic Designer)",
+                                                        "Hassan Khalid (Video Editor)",
+                                                        "Iqra Latif (Email Marketing Specialist)",
+                                                        "Junaid Mirza (Marketing Analyst)",
+                                                        "Kiran Nawaz (Brand Manager)",
+                                                        "Maham Qureshi (PR Specialist)",
+                                                        "Noman Rana (Market Research Analyst)"
+                                                    ],
+                                          "count":  12
+                                      },
+                        "Finance":  {
+                                        "users":  [
+                                                      "Iqra Hassan (Finance Director)",
+                                                      "Junaid Ali (Senior Accountant)",
+                                                      "Kiran Ahmed (Accountant)",
+                                                      "Maham Raza (Payroll Specialist)",
+                                                      "Noman Akhtar (Auditor)",
+                                                      "Parveen Shah (Budget Analyst)",
+                                                      "Qasim Chaudhry (Tax Specialist)",
+                                                      "Rukhsana Tariq (Accounts Receivable)",
+                                                      "Saad Riaz (Accounts Payable)",
+                                                      "Tahir Zahra (Financial Analyst)",
+                                                      "Uzma Abbas (Treasury Manager)",
+                                                      "Waqar Bhatti (Risk Analyst)"
+                                                  ],
+                                        "count":  12
+                                    }
+                    }
+}

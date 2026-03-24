@@ -1,0 +1,21 @@
+2026-03-24 09:16:05 [INFO] - Generated username: araza
+2026-03-24 09:16:05 [INFO] - User araza is available
+2026-03-24 09:16:05 [INFO] - User will be placed in: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:16:05 [INFO] - Creating user: Ali Raza
+2026-03-24 09:16:05 [INFO] -   Username: araza
+2026-03-24 09:16:05 [INFO] -   Department: IT
+2026-03-24 09:16:05 [INFO] -   Title: Network Engineer Assistant
+2026-03-24 09:16:05 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:16:05 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:16:05 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:16:05 [INFO] - Onboarding completed successfully for araza
+2026-03-24 09:17:59 [INFO] - Generated username: fkhan
+2026-03-24 09:17:59 [INFO] - User fkhan is available
+2026-03-24 09:17:59 [INFO] - User will be placed in: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:17:59 [INFO] - Creating user: Fatima  Khan
+2026-03-24 09:17:59 [INFO] -   Username: fkhan
+2026-03-24 09:17:59 [INFO] -   Department: Finance
+2026-03-24 09:17:59 [INFO] -   Title: Senior Accountant
+2026-03-24 09:17:59 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:17:59 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:17:59 [INFO] - Onboarding completed successfully for fkhan

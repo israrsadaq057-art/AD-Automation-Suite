@@ -1,0 +1,2157 @@
+2026-03-24 09:43:14 [INFO] - Starting complete onboarding process for Resource Academia
+2026-03-24 09:43:14 [INFO] - Found 100 users in CSV file
+2026-03-24 09:43:14 [INFO] -   Home Directory: \\fs01\IT_Home\akhan
+2026-03-24 09:43:14 [SUCCESS] - Creating user: akhan
+2026-03-24 09:43:14 [INFO] -   Name: Ahmed Khan
+2026-03-24 09:43:14 [INFO] -   Department: IT
+2026-03-24 09:43:14 [INFO] -   Title: IT Director
+2026-03-24 09:43:14 [INFO] -   Manager: CEO
+2026-03-24 09:43:14 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:14 [INFO] -   Phone: +92-51-1234568
+2026-03-24 09:43:14 [INFO] -   Email: akhan@resourceacademia.local
+2026-03-24 09:43:14 [INFO] -   EmployeeID: 1.PadLeft(3
+2026-03-24 09:43:14 [INFO] -   Start Date: '0')
+2026-03-24 09:43:14 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:14 [INFO] -   Home Directory: \\fs01\IT_Home\akhan
+2026-03-24 09:43:14 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:14 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:14 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:14 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:14 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:14 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:14 [INFO] -   Mailbox created: akhan@resourceacademia.local
+2026-03-24 09:43:14 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:14 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:14 [INFO] -   Home Directory: \\fs01\IT_Home\fmalik
+2026-03-24 09:43:14 [SUCCESS] - Creating user: fmalik
+2026-03-24 09:43:14 [INFO] -   Name: Fatima Malik
+2026-03-24 09:43:15 [INFO] -   Department: IT
+2026-03-24 09:43:15 [INFO] -   Title: Network Administrator
+2026-03-24 09:43:15 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:15 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:15 [INFO] -   Phone: +92-51-1234569
+2026-03-24 09:43:15 [INFO] -   Email: fmalik@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   EmployeeID: 2.PadLeft(3
+2026-03-24 09:43:15 [INFO] -   Start Date: '0')
+2026-03-24 09:43:15 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\fmalik
+2026-03-24 09:43:15 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:15 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:15 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:15 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:15 [INFO] -   Mailbox created: fmalik@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:15 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\ohassan
+2026-03-24 09:43:15 [SUCCESS] - Creating user: ohassan
+2026-03-24 09:43:15 [INFO] -   Name: Omar Hassan
+2026-03-24 09:43:15 [INFO] -   Department: IT
+2026-03-24 09:43:15 [INFO] -   Title: System Administrator
+2026-03-24 09:43:15 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:15 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:15 [INFO] -   Phone: +92-51-1234570
+2026-03-24 09:43:15 [INFO] -   Email: ohassan@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   EmployeeID: 3.PadLeft(3
+2026-03-24 09:43:15 [INFO] -   Start Date: '0')
+2026-03-24 09:43:15 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\ohassan
+2026-03-24 09:43:15 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:15 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:15 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:15 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:15 [INFO] -   Mailbox created: ohassan@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:15 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\sali
+2026-03-24 09:43:15 [SUCCESS] - Creating user: sali
+2026-03-24 09:43:15 [INFO] -   Name: Sara Ali
+2026-03-24 09:43:15 [INFO] -   Department: IT
+2026-03-24 09:43:15 [INFO] -   Title: Help Desk Lead
+2026-03-24 09:43:15 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:15 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:15 [INFO] -   Phone: +92-51-1234571
+2026-03-24 09:43:15 [INFO] -   Email: sali@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   EmployeeID: 4.PadLeft(3
+2026-03-24 09:43:15 [INFO] -   Start Date: '0')
+2026-03-24 09:43:15 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\sali
+2026-03-24 09:43:15 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:15 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:15 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:15 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:15 [INFO] -   Mailbox created: sali@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:15 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\uahmed
+2026-03-24 09:43:15 [SUCCESS] - Creating user: uahmed
+2026-03-24 09:43:15 [INFO] -   Name: Usman Ahmed
+2026-03-24 09:43:15 [INFO] -   Department: IT
+2026-03-24 09:43:15 [INFO] -   Title: Network Engineer
+2026-03-24 09:43:15 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:15 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:15 [INFO] -   Phone: +92-51-1234572
+2026-03-24 09:43:15 [INFO] -   Email: uahmed@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   EmployeeID: 5.PadLeft(3
+2026-03-24 09:43:15 [INFO] -   Start Date: '0')
+2026-03-24 09:43:15 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\uahmed
+2026-03-24 09:43:15 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:15 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:15 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:15 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:15 [INFO] -   Mailbox created: uahmed@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:15 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\zraza
+2026-03-24 09:43:15 [SUCCESS] - Creating user: zraza
+2026-03-24 09:43:15 [INFO] -   Name: Zara Raza
+2026-03-24 09:43:15 [INFO] -   Department: IT
+2026-03-24 09:43:15 [INFO] -   Title: System Engineer
+2026-03-24 09:43:15 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:15 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:15 [INFO] -   Phone: +92-51-1234573
+2026-03-24 09:43:15 [INFO] -   Email: zraza@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   EmployeeID: 6.PadLeft(3
+2026-03-24 09:43:15 [INFO] -   Start Date: '0')
+2026-03-24 09:43:15 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\zraza
+2026-03-24 09:43:15 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:15 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:15 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:15 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:15 [INFO] -   Mailbox created: zraza@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:15 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\bakhtar
+2026-03-24 09:43:15 [SUCCESS] - Creating user: bakhtar
+2026-03-24 09:43:15 [INFO] -   Name: Bilal Akhtar
+2026-03-24 09:43:15 [INFO] -   Department: IT
+2026-03-24 09:43:15 [INFO] -   Title: Help Desk Technician
+2026-03-24 09:43:15 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:15 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:15 [INFO] -   Phone: +92-51-1234574
+2026-03-24 09:43:15 [INFO] -   Email: bakhtar@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   EmployeeID: 7.PadLeft(3
+2026-03-24 09:43:15 [INFO] -   Start Date: '0')
+2026-03-24 09:43:15 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\bakhtar
+2026-03-24 09:43:15 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:15 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:15 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:15 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:15 [INFO] -   Mailbox created: bakhtar@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:15 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\ashah
+2026-03-24 09:43:15 [SUCCESS] - Creating user: ashah
+2026-03-24 09:43:15 [INFO] -   Name: Ayesha Shah
+2026-03-24 09:43:15 [INFO] -   Department: IT
+2026-03-24 09:43:15 [INFO] -   Title: IT Support Specialist
+2026-03-24 09:43:15 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:15 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:15 [INFO] -   Phone: +92-51-1234575
+2026-03-24 09:43:15 [INFO] -   Email: ashah@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   EmployeeID: 8.PadLeft(3
+2026-03-24 09:43:15 [INFO] -   Start Date: '0')
+2026-03-24 09:43:15 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\ashah
+2026-03-24 09:43:15 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:15 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:15 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:15 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:15 [INFO] -   Mailbox created: ashah@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:15 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\hchaudhry
+2026-03-24 09:43:15 [SUCCESS] - Creating user: hchaudhry
+2026-03-24 09:43:15 [INFO] -   Name: Hamza Chaudhry
+2026-03-24 09:43:15 [INFO] -   Department: IT
+2026-03-24 09:43:15 [INFO] -   Title: Database Administrator
+2026-03-24 09:43:15 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:15 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:15 [INFO] -   Phone: +92-51-1234576
+2026-03-24 09:43:15 [INFO] -   Email: hchaudhry@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   EmployeeID: 9.PadLeft(3
+2026-03-24 09:43:15 [INFO] -   Start Date: '0')
+2026-03-24 09:43:15 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\hchaudhry
+2026-03-24 09:43:15 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:15 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:15 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:15 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:15 [INFO] -   Mailbox created: hchaudhry@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:15 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\stariq
+2026-03-24 09:43:15 [SUCCESS] - Creating user: stariq
+2026-03-24 09:43:15 [INFO] -   Name: Sana Tariq
+2026-03-24 09:43:15 [INFO] -   Department: IT
+2026-03-24 09:43:15 [INFO] -   Title: Security Analyst
+2026-03-24 09:43:15 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:15 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:15 [INFO] -   Phone: +92-51-1234577
+2026-03-24 09:43:15 [INFO] -   Email: stariq@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   EmployeeID: 10.PadLeft(3
+2026-03-24 09:43:15 [INFO] -   Start Date: '0')
+2026-03-24 09:43:15 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:15 [INFO] -   Home Directory: \\fs01\IT_Home\stariq
+2026-03-24 09:43:15 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:15 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:15 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:15 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:15 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:15 [INFO] -   Mailbox created: stariq@resourceacademia.local
+2026-03-24 09:43:15 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:15 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\ariaz
+2026-03-24 09:43:16 [SUCCESS] - Creating user: ariaz
+2026-03-24 09:43:16 [INFO] -   Name: Ali Riaz
+2026-03-24 09:43:16 [INFO] -   Department: IT
+2026-03-24 09:43:16 [INFO] -   Title: Cloud Engineer
+2026-03-24 09:43:16 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:16 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:16 [INFO] -   Phone: +92-51-1234578
+2026-03-24 09:43:16 [INFO] -   Email: ariaz@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   EmployeeID: 11.PadLeft(3
+2026-03-24 09:43:16 [INFO] -   Start Date: '0')
+2026-03-24 09:43:16 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\ariaz
+2026-03-24 09:43:16 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:16 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:16 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:16 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:16 [INFO] -   Mailbox created: ariaz@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:16 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\hzahra
+2026-03-24 09:43:16 [SUCCESS] - Creating user: hzahra
+2026-03-24 09:43:16 [INFO] -   Name: Hina Zahra
+2026-03-24 09:43:16 [INFO] -   Department: IT
+2026-03-24 09:43:16 [INFO] -   Title: DevOps Engineer
+2026-03-24 09:43:16 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:16 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:16 [INFO] -   Phone: +92-51-1234579
+2026-03-24 09:43:16 [INFO] -   Email: hzahra@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   EmployeeID: 12.PadLeft(3
+2026-03-24 09:43:16 [INFO] -   Start Date: '0')
+2026-03-24 09:43:16 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\hzahra
+2026-03-24 09:43:16 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:16 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:16 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:16 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:16 [INFO] -   Mailbox created: hzahra@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:16 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\iabbas
+2026-03-24 09:43:16 [SUCCESS] - Creating user: iabbas
+2026-03-24 09:43:16 [INFO] -   Name: Imran Abbas
+2026-03-24 09:43:16 [INFO] -   Department: IT
+2026-03-24 09:43:16 [INFO] -   Title: IT Project Manager
+2026-03-24 09:43:16 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:16 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:16 [INFO] -   Phone: +92-51-1234580
+2026-03-24 09:43:16 [INFO] -   Email: iabbas@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   EmployeeID: 13.PadLeft(3
+2026-03-24 09:43:16 [INFO] -   Start Date: '0')
+2026-03-24 09:43:16 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\iabbas
+2026-03-24 09:43:16 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:16 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:16 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:16 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:16 [INFO] -   Mailbox created: iabbas@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:16 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\rbhatti
+2026-03-24 09:43:16 [SUCCESS] - Creating user: rbhatti
+2026-03-24 09:43:16 [INFO] -   Name: Rabia Bhatti
+2026-03-24 09:43:16 [INFO] -   Department: IT
+2026-03-24 09:43:16 [INFO] -   Title: Business Analyst
+2026-03-24 09:43:16 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:16 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:16 [INFO] -   Phone: +92-51-1234581
+2026-03-24 09:43:16 [INFO] -   Email: rbhatti@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   EmployeeID: 14.PadLeft(3
+2026-03-24 09:43:16 [INFO] -   Start Date: '0')
+2026-03-24 09:43:16 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\rbhatti
+2026-03-24 09:43:16 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:16 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:16 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:16 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:16 [INFO] -   Mailbox created: rbhatti@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:16 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\zbutt
+2026-03-24 09:43:16 [SUCCESS] - Creating user: zbutt
+2026-03-24 09:43:16 [INFO] -   Name: Zain Butt
+2026-03-24 09:43:16 [INFO] -   Department: IT
+2026-03-24 09:43:16 [INFO] -   Title: IT Trainer
+2026-03-24 09:43:16 [INFO] -   Manager: Ahmed Hassan
+2026-03-24 09:43:16 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:16 [INFO] -   Phone: +92-51-1234582
+2026-03-24 09:43:16 [INFO] -   Email: zbutt@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   EmployeeID: 15.PadLeft(3
+2026-03-24 09:43:16 [INFO] -   Start Date: '0')
+2026-03-24 09:43:16 [INFO] -   OU: OU=IT,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\IT_Home\zbutt
+2026-03-24 09:43:16 [INFO] -   Added to group: IT_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: Network_Admins
+2026-03-24 09:43:16 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:16 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:16 [INFO] -   Added to distribution group: IT_All
+2026-03-24 09:43:16 [INFO] -   Drive mapping: H: -> \\fs01\IT_Home
+2026-03-24 09:43:16 [INFO] -   Mailbox created: zbutt@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:16 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\Marketing_Home\sdar
+2026-03-24 09:43:16 [SUCCESS] - Creating user: sdar
+2026-03-24 09:43:16 [INFO] -   Name: Saima Dar
+2026-03-24 09:43:16 [INFO] -   Department: Marketing
+2026-03-24 09:43:16 [INFO] -   Title: Marketing Director
+2026-03-24 09:43:16 [INFO] -   Manager: CEO
+2026-03-24 09:43:16 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:16 [INFO] -   Phone: +92-51-1234591
+2026-03-24 09:43:16 [INFO] -   Email: sdar@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   EmployeeID: MAR16.PadLeft(3
+2026-03-24 09:43:16 [INFO] -   Start Date: '0')
+2026-03-24 09:43:16 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\Marketing_Home\sdar
+2026-03-24 09:43:16 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:16 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:16 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:16 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:16 [INFO] -   Mailbox created: sdar@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:16 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\Marketing_Home\kfarooq
+2026-03-24 09:43:16 [SUCCESS] - Creating user: kfarooq
+2026-03-24 09:43:16 [INFO] -   Name: Khalid Farooq
+2026-03-24 09:43:16 [INFO] -   Department: Marketing
+2026-03-24 09:43:16 [INFO] -   Title: Digital Marketing Manager
+2026-03-24 09:43:16 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:16 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:16 [INFO] -   Phone: +92-51-1234592
+2026-03-24 09:43:16 [INFO] -   Email: kfarooq@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   EmployeeID: MAR17.PadLeft(3
+2026-03-24 09:43:16 [INFO] -   Start Date: '0')
+2026-03-24 09:43:16 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\Marketing_Home\kfarooq
+2026-03-24 09:43:16 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:16 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:16 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:16 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:16 [INFO] -   Mailbox created: kfarooq@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:16 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\Marketing_Home\ngill
+2026-03-24 09:43:16 [SUCCESS] - Creating user: ngill
+2026-03-24 09:43:16 [INFO] -   Name: Nadia Gill
+2026-03-24 09:43:16 [INFO] -   Department: Marketing
+2026-03-24 09:43:16 [INFO] -   Title: Content Creator
+2026-03-24 09:43:16 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:16 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:16 [INFO] -   Phone: +92-51-1234593
+2026-03-24 09:43:16 [INFO] -   Email: ngill@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   EmployeeID: MAR18.PadLeft(3
+2026-03-24 09:43:16 [INFO] -   Start Date: '0')
+2026-03-24 09:43:16 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\Marketing_Home\ngill
+2026-03-24 09:43:16 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:16 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:16 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:16 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:16 [INFO] -   Mailbox created: ngill@resourceacademia.local
+2026-03-24 09:43:16 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:16 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:16 [INFO] -   Home Directory: \\fs01\Marketing_Home\rhashmi
+2026-03-24 09:43:16 [SUCCESS] - Creating user: rhashmi
+2026-03-24 09:43:16 [INFO] -   Name: Raza Hashmi
+2026-03-24 09:43:16 [INFO] -   Department: Marketing
+2026-03-24 09:43:17 [INFO] -   Title: Social Media Manager
+2026-03-24 09:43:17 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234594
+2026-03-24 09:43:17 [INFO] -   Email: rhashmi@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   EmployeeID: MAR19.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\rhashmi
+2026-03-24 09:43:17 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:17 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:17 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:17 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:17 [INFO] -   Mailbox created: rhashmi@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:17 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\miqbal
+2026-03-24 09:43:17 [SUCCESS] - Creating user: miqbal
+2026-03-24 09:43:17 [INFO] -   Name: Muhammad Iqbal
+2026-03-24 09:43:17 [INFO] -   Department: Marketing
+2026-03-24 09:43:17 [INFO] -   Title: SEO Specialist
+2026-03-24 09:43:17 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234595
+2026-03-24 09:43:17 [INFO] -   Email: miqbal@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   EmployeeID: MAR20.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\miqbal
+2026-03-24 09:43:17 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:17 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:17 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:17 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:17 [INFO] -   Mailbox created: miqbal@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:17 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\ajaved
+2026-03-24 09:43:17 [SUCCESS] - Creating user: ajaved
+2026-03-24 09:43:17 [INFO] -   Name: Amina Javed
+2026-03-24 09:43:17 [INFO] -   Department: Marketing
+2026-03-24 09:43:17 [INFO] -   Title: Graphic Designer
+2026-03-24 09:43:17 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234596
+2026-03-24 09:43:17 [INFO] -   Email: ajaved@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   EmployeeID: MAR21.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\ajaved
+2026-03-24 09:43:17 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:17 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:17 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:17 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:17 [INFO] -   Mailbox created: ajaved@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:17 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\hkhalid
+2026-03-24 09:43:17 [SUCCESS] - Creating user: hkhalid
+2026-03-24 09:43:17 [INFO] -   Name: Hassan Khalid
+2026-03-24 09:43:17 [INFO] -   Department: Marketing
+2026-03-24 09:43:17 [INFO] -   Title: Video Editor
+2026-03-24 09:43:17 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234597
+2026-03-24 09:43:17 [INFO] -   Email: hkhalid@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   EmployeeID: MAR22.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\hkhalid
+2026-03-24 09:43:17 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:17 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:17 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:17 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:17 [INFO] -   Mailbox created: hkhalid@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:17 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\ilatif
+2026-03-24 09:43:17 [SUCCESS] - Creating user: ilatif
+2026-03-24 09:43:17 [INFO] -   Name: Iqra Latif
+2026-03-24 09:43:17 [INFO] -   Department: Marketing
+2026-03-24 09:43:17 [INFO] -   Title: Email Marketing Specialist
+2026-03-24 09:43:17 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234598
+2026-03-24 09:43:17 [INFO] -   Email: ilatif@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   EmployeeID: MAR23.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\ilatif
+2026-03-24 09:43:17 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:17 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:17 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:17 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:17 [INFO] -   Mailbox created: ilatif@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:17 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\jmirza
+2026-03-24 09:43:17 [SUCCESS] - Creating user: jmirza
+2026-03-24 09:43:17 [INFO] -   Name: Junaid Mirza
+2026-03-24 09:43:17 [INFO] -   Department: Marketing
+2026-03-24 09:43:17 [INFO] -   Title: Marketing Analyst
+2026-03-24 09:43:17 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234599
+2026-03-24 09:43:17 [INFO] -   Email: jmirza@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   EmployeeID: MAR24.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\jmirza
+2026-03-24 09:43:17 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:17 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:17 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:17 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:17 [INFO] -   Mailbox created: jmirza@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:17 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\knawaz
+2026-03-24 09:43:17 [SUCCESS] - Creating user: knawaz
+2026-03-24 09:43:17 [INFO] -   Name: Kiran Nawaz
+2026-03-24 09:43:17 [INFO] -   Department: Marketing
+2026-03-24 09:43:17 [INFO] -   Title: Brand Manager
+2026-03-24 09:43:17 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234600
+2026-03-24 09:43:17 [INFO] -   Email: knawaz@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   EmployeeID: MAR25.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\knawaz
+2026-03-24 09:43:17 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:17 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:17 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:17 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:17 [INFO] -   Mailbox created: knawaz@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:17 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\mqureshi
+2026-03-24 09:43:17 [SUCCESS] - Creating user: mqureshi
+2026-03-24 09:43:17 [INFO] -   Name: Maham Qureshi
+2026-03-24 09:43:17 [INFO] -   Department: Marketing
+2026-03-24 09:43:17 [INFO] -   Title: PR Specialist
+2026-03-24 09:43:17 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234601
+2026-03-24 09:43:17 [INFO] -   Email: mqureshi@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   EmployeeID: MAR26.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\mqureshi
+2026-03-24 09:43:17 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:17 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:17 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:17 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:17 [INFO] -   Mailbox created: mqureshi@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:17 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\nrana
+2026-03-24 09:43:17 [SUCCESS] - Creating user: nrana
+2026-03-24 09:43:17 [INFO] -   Name: Noman Rana
+2026-03-24 09:43:17 [INFO] -   Department: Marketing
+2026-03-24 09:43:17 [INFO] -   Title: Market Research Analyst
+2026-03-24 09:43:17 [INFO] -   Manager: Zain Malik
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234602
+2026-03-24 09:43:17 [INFO] -   Email: nrana@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   EmployeeID: MAR27.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Marketing,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Marketing_Home\nrana
+2026-03-24 09:43:17 [INFO] -   Added to group: Marketing_Staff
+2026-03-24 09:43:17 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:17 [INFO] -   Added to distribution group: Marketing_All
+2026-03-24 09:43:17 [INFO] -   Drive mapping: H: -> \\fs01\Marketing_Home
+2026-03-24 09:43:17 [INFO] -   Mailbox created: nrana@resourceacademia.local
+2026-03-24 09:43:17 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:17 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Students_Home\psiddiqui
+2026-03-24 09:43:17 [SUCCESS] - Creating user: psiddiqui
+2026-03-24 09:43:17 [INFO] -   Name: Parveen Siddiqui
+2026-03-24 09:43:17 [INFO] -   Department: Students
+2026-03-24 09:43:17 [INFO] -   Title: BS CS Student
+2026-03-24 09:43:17 [INFO] -   Manager: CEO
+2026-03-24 09:43:17 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:17 [INFO] -   Phone: +92-51-1234651
+2026-03-24 09:43:17 [INFO] -   Email: p
+2026-03-24 09:43:17 [INFO] -   EmployeeID: STU28.PadLeft(3
+2026-03-24 09:43:17 [INFO] -   Start Date: '0')
+2026-03-24 09:43:17 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:17 [INFO] -   Home Directory: \\fs01\Students_Home\psiddiqui
+2026-03-24 09:43:18 [INFO] -   Added to group: Students
+2026-03-24 09:43:18 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:18 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:18 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:18 [INFO] -   Mailbox created: p
+2026-03-24 09:43:18 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:18 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\qusman
+2026-03-24 09:43:18 [SUCCESS] - Creating user: qusman
+2026-03-24 09:43:18 [INFO] -   Name: Qasim Usman
+2026-03-24 09:43:18 [INFO] -   Department: Students
+2026-03-24 09:43:18 [INFO] -   Title: BS IT Student
+2026-03-24 09:43:18 [INFO] -   Manager: Department Head
+2026-03-24 09:43:18 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:18 [INFO] -   Phone: +92-51-1234652
+2026-03-24 09:43:18 [INFO] -   Email: q
+2026-03-24 09:43:18 [INFO] -   EmployeeID: STU29.PadLeft(3
+2026-03-24 09:43:18 [INFO] -   Start Date: '0')
+2026-03-24 09:43:18 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\qusman
+2026-03-24 09:43:18 [INFO] -   Added to group: Students
+2026-03-24 09:43:18 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:18 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:18 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:18 [INFO] -   Mailbox created: q
+2026-03-24 09:43:18 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:18 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\rwahid
+2026-03-24 09:43:18 [SUCCESS] - Creating user: rwahid
+2026-03-24 09:43:18 [INFO] -   Name: Rukhsana Wahid
+2026-03-24 09:43:18 [INFO] -   Department: Students
+2026-03-24 09:43:18 [INFO] -   Title: BS SE Student
+2026-03-24 09:43:18 [INFO] -   Manager: Department Head
+2026-03-24 09:43:18 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:18 [INFO] -   Phone: +92-51-1234653
+2026-03-24 09:43:18 [INFO] -   Email: r
+2026-03-24 09:43:18 [INFO] -   EmployeeID: STU30.PadLeft(3
+2026-03-24 09:43:18 [INFO] -   Start Date: '0')
+2026-03-24 09:43:18 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\rwahid
+2026-03-24 09:43:18 [INFO] -   Added to group: Students
+2026-03-24 09:43:18 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:18 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:18 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:18 [INFO] -   Mailbox created: r
+2026-03-24 09:43:18 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:18 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\skhan
+2026-03-24 09:43:18 [SUCCESS] - Creating user: skhan
+2026-03-24 09:43:18 [INFO] -   Name: Saad Khan
+2026-03-24 09:43:18 [INFO] -   Department: Students
+2026-03-24 09:43:18 [INFO] -   Title: BS AI Student
+2026-03-24 09:43:18 [INFO] -   Manager: Department Head
+2026-03-24 09:43:18 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:18 [INFO] -   Phone: +92-51-1234654
+2026-03-24 09:43:18 [INFO] -   Email: s
+2026-03-24 09:43:18 [INFO] -   EmployeeID: STU31.PadLeft(3
+2026-03-24 09:43:18 [INFO] -   Start Date: '0')
+2026-03-24 09:43:18 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\skhan
+2026-03-24 09:43:18 [INFO] -   Added to group: Students
+2026-03-24 09:43:18 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:18 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:18 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:18 [INFO] -   Mailbox created: s
+2026-03-24 09:43:18 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:18 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\tmalik
+2026-03-24 09:43:18 [SUCCESS] - Creating user: tmalik
+2026-03-24 09:43:18 [INFO] -   Name: Tahir Malik
+2026-03-24 09:43:18 [INFO] -   Department: Students
+2026-03-24 09:43:18 [INFO] -   Title: BS DS Student
+2026-03-24 09:43:18 [INFO] -   Manager: Department Head
+2026-03-24 09:43:18 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:18 [INFO] -   Phone: +92-51-1234655
+2026-03-24 09:43:18 [INFO] -   Email: t
+2026-03-24 09:43:18 [INFO] -   EmployeeID: STU32.PadLeft(3
+2026-03-24 09:43:18 [INFO] -   Start Date: '0')
+2026-03-24 09:43:18 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\tmalik
+2026-03-24 09:43:18 [INFO] -   Added to group: Students
+2026-03-24 09:43:18 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:18 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:18 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:18 [INFO] -   Mailbox created: t
+2026-03-24 09:43:18 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:18 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\uhassan
+2026-03-24 09:43:18 [SUCCESS] - Creating user: uhassan
+2026-03-24 09:43:18 [INFO] -   Name: Uzma Hassan
+2026-03-24 09:43:18 [INFO] -   Department: Students
+2026-03-24 09:43:18 [INFO] -   Title: BS Cyber Security
+2026-03-24 09:43:18 [INFO] -   Manager: Department Head
+2026-03-24 09:43:18 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:18 [INFO] -   Phone: +92-51-1234656
+2026-03-24 09:43:18 [INFO] -   Email: u
+2026-03-24 09:43:18 [INFO] -   EmployeeID: STU33.PadLeft(3
+2026-03-24 09:43:18 [INFO] -   Start Date: '0')
+2026-03-24 09:43:18 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\uhassan
+2026-03-24 09:43:18 [INFO] -   Added to group: Students
+2026-03-24 09:43:18 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:18 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:18 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:18 [INFO] -   Mailbox created: u
+2026-03-24 09:43:18 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:18 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\wali
+2026-03-24 09:43:18 [SUCCESS] - Creating user: wali
+2026-03-24 09:43:18 [INFO] -   Name: Waqar Ali
+2026-03-24 09:43:18 [INFO] -   Department: Students
+2026-03-24 09:43:18 [INFO] -   Title: MS CS Student
+2026-03-24 09:43:18 [INFO] -   Manager: Department Head
+2026-03-24 09:43:18 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:18 [INFO] -   Phone: +92-51-1234657
+2026-03-24 09:43:18 [INFO] -   Email: w
+2026-03-24 09:43:18 [INFO] -   EmployeeID: STU34.PadLeft(3
+2026-03-24 09:43:18 [INFO] -   Start Date: '0')
+2026-03-24 09:43:18 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\wali
+2026-03-24 09:43:18 [INFO] -   Added to group: Students
+2026-03-24 09:43:18 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:18 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:18 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:18 [INFO] -   Mailbox created: w
+2026-03-24 09:43:18 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:18 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\yahmed
+2026-03-24 09:43:18 [SUCCESS] - Creating user: yahmed
+2026-03-24 09:43:18 [INFO] -   Name: Yasmeen Ahmed
+2026-03-24 09:43:18 [INFO] -   Department: Students
+2026-03-24 09:43:18 [INFO] -   Title: MS IT Student
+2026-03-24 09:43:18 [INFO] -   Manager: Department Head
+2026-03-24 09:43:18 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:18 [INFO] -   Phone: +92-51-1234658
+2026-03-24 09:43:18 [INFO] -   Email: y
+2026-03-24 09:43:18 [INFO] -   EmployeeID: STU35.PadLeft(3
+2026-03-24 09:43:18 [INFO] -   Start Date: '0')
+2026-03-24 09:43:18 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\yahmed
+2026-03-24 09:43:18 [INFO] -   Added to group: Students
+2026-03-24 09:43:18 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:18 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:18 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:18 [INFO] -   Mailbox created: y
+2026-03-24 09:43:18 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:18 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:18 [WARNING] - Duplicate username detected: zraza
+2026-03-24 09:43:18 [WARNING] - Adjusted username to: zraza36
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\zraza36
+2026-03-24 09:43:18 [SUCCESS] - Creating user: zraza36
+2026-03-24 09:43:18 [INFO] -   Name: Zafar Raza
+2026-03-24 09:43:18 [INFO] -   Department: Students
+2026-03-24 09:43:18 [INFO] -   Title: PhD CS Student
+2026-03-24 09:43:18 [INFO] -   Manager: Department Head
+2026-03-24 09:43:18 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:18 [INFO] -   Phone: +92-51-1234659
+2026-03-24 09:43:18 [INFO] -   Email: z
+2026-03-24 09:43:18 [INFO] -   EmployeeID: STU36.PadLeft(3
+2026-03-24 09:43:18 [INFO] -   Start Date: '0')
+2026-03-24 09:43:18 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\zraza36
+2026-03-24 09:43:18 [INFO] -   Added to group: Students
+2026-03-24 09:43:18 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:18 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:18 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:18 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:18 [INFO] -   Mailbox created: z
+2026-03-24 09:43:18 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:18 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:18 [INFO] -   Home Directory: \\fs01\Students_Home\aakhtar
+2026-03-24 09:43:19 [SUCCESS] - Creating user: aakhtar
+2026-03-24 09:43:19 [INFO] -   Name: Abrar Akhtar
+2026-03-24 09:43:19 [INFO] -   Department: Students
+2026-03-24 09:43:19 [INFO] -   Title: BS Economics
+2026-03-24 09:43:19 [INFO] -   Manager: Department Head
+2026-03-24 09:43:19 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:19 [INFO] -   Phone: +92-51-1234660
+2026-03-24 09:43:19 [INFO] -   Email: a
+2026-03-24 09:43:19 [INFO] -   EmployeeID: STU37.PadLeft(3
+2026-03-24 09:43:19 [INFO] -   Start Date: '0')
+2026-03-24 09:43:19 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\aakhtar
+2026-03-24 09:43:19 [INFO] -   Added to group: Students
+2026-03-24 09:43:19 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:19 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:19 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:19 [INFO] -   Mailbox created: a
+2026-03-24 09:43:19 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:19 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\bshah
+2026-03-24 09:43:19 [SUCCESS] - Creating user: bshah
+2026-03-24 09:43:19 [INFO] -   Name: Bushra Shah
+2026-03-24 09:43:19 [INFO] -   Department: Students
+2026-03-24 09:43:19 [INFO] -   Title: BS Business
+2026-03-24 09:43:19 [INFO] -   Manager: Department Head
+2026-03-24 09:43:19 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:19 [INFO] -   Phone: +92-51-1234661
+2026-03-24 09:43:19 [INFO] -   Email: b
+2026-03-24 09:43:19 [INFO] -   EmployeeID: STU38.PadLeft(3
+2026-03-24 09:43:19 [INFO] -   Start Date: '0')
+2026-03-24 09:43:19 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\bshah
+2026-03-24 09:43:19 [INFO] -   Added to group: Students
+2026-03-24 09:43:19 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:19 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:19 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:19 [INFO] -   Mailbox created: b
+2026-03-24 09:43:19 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:19 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\dchaudhry
+2026-03-24 09:43:19 [SUCCESS] - Creating user: dchaudhry
+2026-03-24 09:43:19 [INFO] -   Name: Danish Chaudhry
+2026-03-24 09:43:19 [INFO] -   Department: Students
+2026-03-24 09:43:19 [INFO] -   Title: BS Accounting
+2026-03-24 09:43:19 [INFO] -   Manager: Department Head
+2026-03-24 09:43:19 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:19 [INFO] -   Phone: +92-51-1234662
+2026-03-24 09:43:19 [INFO] -   Email: d
+2026-03-24 09:43:19 [INFO] -   EmployeeID: STU39.PadLeft(3
+2026-03-24 09:43:19 [INFO] -   Start Date: '0')
+2026-03-24 09:43:19 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\dchaudhry
+2026-03-24 09:43:19 [INFO] -   Added to group: Students
+2026-03-24 09:43:19 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:19 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:19 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:19 [INFO] -   Mailbox created: d
+2026-03-24 09:43:19 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:19 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\etariq
+2026-03-24 09:43:19 [SUCCESS] - Creating user: etariq
+2026-03-24 09:43:19 [INFO] -   Name: Eman Tariq
+2026-03-24 09:43:19 [INFO] -   Department: Students
+2026-03-24 09:43:19 [INFO] -   Title: BS CS Student
+2026-03-24 09:43:19 [INFO] -   Manager: Department Head
+2026-03-24 09:43:19 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:19 [INFO] -   Phone: +92-51-1234663
+2026-03-24 09:43:19 [INFO] -   Email: e
+2026-03-24 09:43:19 [INFO] -   EmployeeID: STU40.PadLeft(3
+2026-03-24 09:43:19 [INFO] -   Start Date: '0')
+2026-03-24 09:43:19 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\etariq
+2026-03-24 09:43:19 [INFO] -   Added to group: Students
+2026-03-24 09:43:19 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:19 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:19 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:19 [INFO] -   Mailbox created: e
+2026-03-24 09:43:19 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:19 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:19 [WARNING] - Duplicate username detected: ariaz
+2026-03-24 09:43:19 [WARNING] - Adjusted username to: ariaz41
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\ariaz41
+2026-03-24 09:43:19 [SUCCESS] - Creating user: ariaz41
+2026-03-24 09:43:19 [INFO] -   Name: Ahmed Riaz
+2026-03-24 09:43:19 [INFO] -   Department: Students
+2026-03-24 09:43:19 [INFO] -   Title: BS IT Student
+2026-03-24 09:43:19 [INFO] -   Manager: Department Head
+2026-03-24 09:43:19 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:19 [INFO] -   Phone: +92-51-1234664
+2026-03-24 09:43:19 [INFO] -   Email: a
+2026-03-24 09:43:19 [INFO] -   EmployeeID: STU41.PadLeft(3
+2026-03-24 09:43:19 [INFO] -   Start Date: '0')
+2026-03-24 09:43:19 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\ariaz41
+2026-03-24 09:43:19 [INFO] -   Added to group: Students
+2026-03-24 09:43:19 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:19 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:19 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:19 [INFO] -   Mailbox created: a
+2026-03-24 09:43:19 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:19 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\fzahra
+2026-03-24 09:43:19 [SUCCESS] - Creating user: fzahra
+2026-03-24 09:43:19 [INFO] -   Name: Fatima Zahra
+2026-03-24 09:43:19 [INFO] -   Department: Students
+2026-03-24 09:43:19 [INFO] -   Title: BS SE Student
+2026-03-24 09:43:19 [INFO] -   Manager: Department Head
+2026-03-24 09:43:19 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:19 [INFO] -   Phone: +92-51-1234665
+2026-03-24 09:43:19 [INFO] -   Email: f
+2026-03-24 09:43:19 [INFO] -   EmployeeID: STU42.PadLeft(3
+2026-03-24 09:43:19 [INFO] -   Start Date: '0')
+2026-03-24 09:43:19 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\fzahra
+2026-03-24 09:43:19 [INFO] -   Added to group: Students
+2026-03-24 09:43:19 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:19 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:19 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:19 [INFO] -   Mailbox created: f
+2026-03-24 09:43:19 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:19 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\oabbas
+2026-03-24 09:43:19 [SUCCESS] - Creating user: oabbas
+2026-03-24 09:43:19 [INFO] -   Name: Omar Abbas
+2026-03-24 09:43:19 [INFO] -   Department: Students
+2026-03-24 09:43:19 [INFO] -   Title: BS AI Student
+2026-03-24 09:43:19 [INFO] -   Manager: Department Head
+2026-03-24 09:43:19 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:19 [INFO] -   Phone: +92-51-1234666
+2026-03-24 09:43:19 [INFO] -   Email: o
+2026-03-24 09:43:19 [INFO] -   EmployeeID: STU43.PadLeft(3
+2026-03-24 09:43:19 [INFO] -   Start Date: '0')
+2026-03-24 09:43:19 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\oabbas
+2026-03-24 09:43:19 [INFO] -   Added to group: Students
+2026-03-24 09:43:19 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:19 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:19 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:19 [INFO] -   Mailbox created: o
+2026-03-24 09:43:19 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:19 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\sbhatti
+2026-03-24 09:43:19 [SUCCESS] - Creating user: sbhatti
+2026-03-24 09:43:19 [INFO] -   Name: Sara Bhatti
+2026-03-24 09:43:19 [INFO] -   Department: Students
+2026-03-24 09:43:19 [INFO] -   Title: BS DS Student
+2026-03-24 09:43:19 [INFO] -   Manager: Department Head
+2026-03-24 09:43:19 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:19 [INFO] -   Phone: +92-51-1234667
+2026-03-24 09:43:19 [INFO] -   Email: s
+2026-03-24 09:43:19 [INFO] -   EmployeeID: STU44.PadLeft(3
+2026-03-24 09:43:19 [INFO] -   Start Date: '0')
+2026-03-24 09:43:19 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\sbhatti
+2026-03-24 09:43:19 [INFO] -   Added to group: Students
+2026-03-24 09:43:19 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:19 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:19 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:19 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:19 [INFO] -   Mailbox created: s
+2026-03-24 09:43:19 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:19 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:19 [INFO] -   Home Directory: \\fs01\Students_Home\ubutt
+2026-03-24 09:43:19 [SUCCESS] - Creating user: ubutt
+2026-03-24 09:43:19 [INFO] -   Name: Usman Butt
+2026-03-24 09:43:19 [INFO] -   Department: Students
+2026-03-24 09:43:19 [INFO] -   Title: BS Cyber Security
+2026-03-24 09:43:20 [INFO] -   Manager: Department Head
+2026-03-24 09:43:20 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:20 [INFO] -   Phone: +92-51-1234668
+2026-03-24 09:43:20 [INFO] -   Email: u
+2026-03-24 09:43:20 [INFO] -   EmployeeID: STU45.PadLeft(3
+2026-03-24 09:43:20 [INFO] -   Start Date: '0')
+2026-03-24 09:43:20 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\ubutt
+2026-03-24 09:43:20 [INFO] -   Added to group: Students
+2026-03-24 09:43:20 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:20 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:20 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:20 [INFO] -   Mailbox created: u
+2026-03-24 09:43:20 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:20 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\zdar
+2026-03-24 09:43:20 [SUCCESS] - Creating user: zdar
+2026-03-24 09:43:20 [INFO] -   Name: Zara Dar
+2026-03-24 09:43:20 [INFO] -   Department: Students
+2026-03-24 09:43:20 [INFO] -   Title: MS CS Student
+2026-03-24 09:43:20 [INFO] -   Manager: Department Head
+2026-03-24 09:43:20 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:20 [INFO] -   Phone: +92-51-1234669
+2026-03-24 09:43:20 [INFO] -   Email: z
+2026-03-24 09:43:20 [INFO] -   EmployeeID: STU46.PadLeft(3
+2026-03-24 09:43:20 [INFO] -   Start Date: '0')
+2026-03-24 09:43:20 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\zdar
+2026-03-24 09:43:20 [INFO] -   Added to group: Students
+2026-03-24 09:43:20 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:20 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:20 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:20 [INFO] -   Mailbox created: z
+2026-03-24 09:43:20 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:20 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\bfarooq
+2026-03-24 09:43:20 [SUCCESS] - Creating user: bfarooq
+2026-03-24 09:43:20 [INFO] -   Name: Bilal Farooq
+2026-03-24 09:43:20 [INFO] -   Department: Students
+2026-03-24 09:43:20 [INFO] -   Title: MS IT Student
+2026-03-24 09:43:20 [INFO] -   Manager: Department Head
+2026-03-24 09:43:20 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:20 [INFO] -   Phone: +92-51-1234670
+2026-03-24 09:43:20 [INFO] -   Email: b
+2026-03-24 09:43:20 [INFO] -   EmployeeID: STU47.PadLeft(3
+2026-03-24 09:43:20 [INFO] -   Start Date: '0')
+2026-03-24 09:43:20 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\bfarooq
+2026-03-24 09:43:20 [INFO] -   Added to group: Students
+2026-03-24 09:43:20 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:20 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:20 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:20 [INFO] -   Mailbox created: b
+2026-03-24 09:43:20 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:20 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\agill
+2026-03-24 09:43:20 [SUCCESS] - Creating user: agill
+2026-03-24 09:43:20 [INFO] -   Name: Ayesha Gill
+2026-03-24 09:43:20 [INFO] -   Department: Students
+2026-03-24 09:43:20 [INFO] -   Title: PhD CS Student
+2026-03-24 09:43:20 [INFO] -   Manager: Department Head
+2026-03-24 09:43:20 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:20 [INFO] -   Phone: +92-51-1234671
+2026-03-24 09:43:20 [INFO] -   Email: a
+2026-03-24 09:43:20 [INFO] -   EmployeeID: STU48.PadLeft(3
+2026-03-24 09:43:20 [INFO] -   Start Date: '0')
+2026-03-24 09:43:20 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\agill
+2026-03-24 09:43:20 [INFO] -   Added to group: Students
+2026-03-24 09:43:20 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:20 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:20 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:20 [INFO] -   Mailbox created: a
+2026-03-24 09:43:20 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:20 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\hhashmi
+2026-03-24 09:43:20 [SUCCESS] - Creating user: hhashmi
+2026-03-24 09:43:20 [INFO] -   Name: Hamza Hashmi
+2026-03-24 09:43:20 [INFO] -   Department: Students
+2026-03-24 09:43:20 [INFO] -   Title: BS Economics
+2026-03-24 09:43:20 [INFO] -   Manager: Department Head
+2026-03-24 09:43:20 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:20 [INFO] -   Phone: +92-51-1234672
+2026-03-24 09:43:20 [INFO] -   Email: h
+2026-03-24 09:43:20 [INFO] -   EmployeeID: STU49.PadLeft(3
+2026-03-24 09:43:20 [INFO] -   Start Date: '0')
+2026-03-24 09:43:20 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\hhashmi
+2026-03-24 09:43:20 [INFO] -   Added to group: Students
+2026-03-24 09:43:20 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:20 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:20 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:20 [INFO] -   Mailbox created: h
+2026-03-24 09:43:20 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:20 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\siqbal
+2026-03-24 09:43:20 [SUCCESS] - Creating user: siqbal
+2026-03-24 09:43:20 [INFO] -   Name: Sana Iqbal
+2026-03-24 09:43:20 [INFO] -   Department: Students
+2026-03-24 09:43:20 [INFO] -   Title: BS Business
+2026-03-24 09:43:20 [INFO] -   Manager: Department Head
+2026-03-24 09:43:20 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:20 [INFO] -   Phone: +92-51-1234673
+2026-03-24 09:43:20 [INFO] -   Email: s
+2026-03-24 09:43:20 [INFO] -   EmployeeID: STU50.PadLeft(3
+2026-03-24 09:43:20 [INFO] -   Start Date: '0')
+2026-03-24 09:43:20 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\siqbal
+2026-03-24 09:43:20 [INFO] -   Added to group: Students
+2026-03-24 09:43:20 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:20 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:20 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:20 [INFO] -   Mailbox created: s
+2026-03-24 09:43:20 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:20 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:20 [WARNING] - Duplicate username detected: ajaved
+2026-03-24 09:43:20 [WARNING] - Adjusted username to: ajaved51
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\ajaved51
+2026-03-24 09:43:20 [SUCCESS] - Creating user: ajaved51
+2026-03-24 09:43:20 [INFO] -   Name: Ali Javed
+2026-03-24 09:43:20 [INFO] -   Department: Students
+2026-03-24 09:43:20 [INFO] -   Title: BS Accounting
+2026-03-24 09:43:20 [INFO] -   Manager: Department Head
+2026-03-24 09:43:20 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:20 [INFO] -   Phone: +92-51-1234674
+2026-03-24 09:43:20 [INFO] -   Email: a
+2026-03-24 09:43:20 [INFO] -   EmployeeID: STU51.PadLeft(3
+2026-03-24 09:43:20 [INFO] -   Start Date: '0')
+2026-03-24 09:43:20 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\ajaved51
+2026-03-24 09:43:20 [INFO] -   Added to group: Students
+2026-03-24 09:43:20 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:20 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:20 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:20 [INFO] -   Mailbox created: a
+2026-03-24 09:43:20 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:20 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:20 [WARNING] - Duplicate username detected: hkhalid
+2026-03-24 09:43:20 [WARNING] - Adjusted username to: hkhalid52
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\hkhalid52
+2026-03-24 09:43:20 [SUCCESS] - Creating user: hkhalid52
+2026-03-24 09:43:20 [INFO] -   Name: Hina Khalid
+2026-03-24 09:43:20 [INFO] -   Department: Students
+2026-03-24 09:43:20 [INFO] -   Title: BS CS Student
+2026-03-24 09:43:20 [INFO] -   Manager: Department Head
+2026-03-24 09:43:20 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:20 [INFO] -   Phone: +92-51-1234675
+2026-03-24 09:43:20 [INFO] -   Email: h
+2026-03-24 09:43:20 [INFO] -   EmployeeID: STU52.PadLeft(3
+2026-03-24 09:43:20 [INFO] -   Start Date: '0')
+2026-03-24 09:43:20 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\hkhalid52
+2026-03-24 09:43:20 [INFO] -   Added to group: Students
+2026-03-24 09:43:20 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:20 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:20 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:20 [INFO] -   Mailbox created: h
+2026-03-24 09:43:20 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:20 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:20 [WARNING] - Duplicate username detected: ilatif
+2026-03-24 09:43:20 [WARNING] - Adjusted username to: ilatif53
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\ilatif53
+2026-03-24 09:43:20 [SUCCESS] - Creating user: ilatif53
+2026-03-24 09:43:20 [INFO] -   Name: Imran Latif
+2026-03-24 09:43:20 [INFO] -   Department: Students
+2026-03-24 09:43:20 [INFO] -   Title: BS IT Student
+2026-03-24 09:43:20 [INFO] -   Manager: Department Head
+2026-03-24 09:43:20 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:20 [INFO] -   Phone: +92-51-1234676
+2026-03-24 09:43:20 [INFO] -   Email: i
+2026-03-24 09:43:20 [INFO] -   EmployeeID: STU53.PadLeft(3
+2026-03-24 09:43:20 [INFO] -   Start Date: '0')
+2026-03-24 09:43:20 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:20 [INFO] -   Home Directory: \\fs01\Students_Home\ilatif53
+2026-03-24 09:43:20 [INFO] -   Added to group: Students
+2026-03-24 09:43:20 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:20 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:20 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:20 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:20 [INFO] -   Mailbox created: i
+2026-03-24 09:43:21 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:21 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\rmirza
+2026-03-24 09:43:21 [SUCCESS] - Creating user: rmirza
+2026-03-24 09:43:21 [INFO] -   Name: Rabia Mirza
+2026-03-24 09:43:21 [INFO] -   Department: Students
+2026-03-24 09:43:21 [INFO] -   Title: BS SE Student
+2026-03-24 09:43:21 [INFO] -   Manager: Department Head
+2026-03-24 09:43:21 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:21 [INFO] -   Phone: +92-51-1234677
+2026-03-24 09:43:21 [INFO] -   Email: r
+2026-03-24 09:43:21 [INFO] -   EmployeeID: STU54.PadLeft(3
+2026-03-24 09:43:21 [INFO] -   Start Date: '0')
+2026-03-24 09:43:21 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\rmirza
+2026-03-24 09:43:21 [INFO] -   Added to group: Students
+2026-03-24 09:43:21 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:21 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:21 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:21 [INFO] -   Mailbox created: r
+2026-03-24 09:43:21 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:21 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\znawaz
+2026-03-24 09:43:21 [SUCCESS] - Creating user: znawaz
+2026-03-24 09:43:21 [INFO] -   Name: Zain Nawaz
+2026-03-24 09:43:21 [INFO] -   Department: Students
+2026-03-24 09:43:21 [INFO] -   Title: BS AI Student
+2026-03-24 09:43:21 [INFO] -   Manager: Department Head
+2026-03-24 09:43:21 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:21 [INFO] -   Phone: +92-51-1234678
+2026-03-24 09:43:21 [INFO] -   Email: z
+2026-03-24 09:43:21 [INFO] -   EmployeeID: STU55.PadLeft(3
+2026-03-24 09:43:21 [INFO] -   Start Date: '0')
+2026-03-24 09:43:21 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\znawaz
+2026-03-24 09:43:21 [INFO] -   Added to group: Students
+2026-03-24 09:43:21 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:21 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:21 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:21 [INFO] -   Mailbox created: z
+2026-03-24 09:43:21 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:21 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\squreshi
+2026-03-24 09:43:21 [SUCCESS] - Creating user: squreshi
+2026-03-24 09:43:21 [INFO] -   Name: Saima Qureshi
+2026-03-24 09:43:21 [INFO] -   Department: Students
+2026-03-24 09:43:21 [INFO] -   Title: BS DS Student
+2026-03-24 09:43:21 [INFO] -   Manager: Department Head
+2026-03-24 09:43:21 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:21 [INFO] -   Phone: +92-51-1234679
+2026-03-24 09:43:21 [INFO] -   Email: s
+2026-03-24 09:43:21 [INFO] -   EmployeeID: STU56.PadLeft(3
+2026-03-24 09:43:21 [INFO] -   Start Date: '0')
+2026-03-24 09:43:21 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\squreshi
+2026-03-24 09:43:21 [INFO] -   Added to group: Students
+2026-03-24 09:43:21 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:21 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:21 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:21 [INFO] -   Mailbox created: s
+2026-03-24 09:43:21 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:21 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\krana
+2026-03-24 09:43:21 [SUCCESS] - Creating user: krana
+2026-03-24 09:43:21 [INFO] -   Name: Khalid Rana
+2026-03-24 09:43:21 [INFO] -   Department: Students
+2026-03-24 09:43:21 [INFO] -   Title: BS Cyber Security
+2026-03-24 09:43:21 [INFO] -   Manager: Department Head
+2026-03-24 09:43:21 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:21 [INFO] -   Phone: +92-51-1234680
+2026-03-24 09:43:21 [INFO] -   Email: k
+2026-03-24 09:43:21 [INFO] -   EmployeeID: STU57.PadLeft(3
+2026-03-24 09:43:21 [INFO] -   Start Date: '0')
+2026-03-24 09:43:21 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\krana
+2026-03-24 09:43:21 [INFO] -   Added to group: Students
+2026-03-24 09:43:21 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:21 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:21 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:21 [INFO] -   Mailbox created: k
+2026-03-24 09:43:21 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:21 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\nsiddiqui
+2026-03-24 09:43:21 [SUCCESS] - Creating user: nsiddiqui
+2026-03-24 09:43:21 [INFO] -   Name: Nadia Siddiqui
+2026-03-24 09:43:21 [INFO] -   Department: Students
+2026-03-24 09:43:21 [INFO] -   Title: MS CS Student
+2026-03-24 09:43:21 [INFO] -   Manager: Department Head
+2026-03-24 09:43:21 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:21 [INFO] -   Phone: +92-51-1234681
+2026-03-24 09:43:21 [INFO] -   Email: n
+2026-03-24 09:43:21 [INFO] -   EmployeeID: STU58.PadLeft(3
+2026-03-24 09:43:21 [INFO] -   Start Date: '0')
+2026-03-24 09:43:21 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\nsiddiqui
+2026-03-24 09:43:21 [INFO] -   Added to group: Students
+2026-03-24 09:43:21 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:21 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:21 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:21 [INFO] -   Mailbox created: n
+2026-03-24 09:43:21 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:21 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\rusman
+2026-03-24 09:43:21 [SUCCESS] - Creating user: rusman
+2026-03-24 09:43:21 [INFO] -   Name: Raza Usman
+2026-03-24 09:43:21 [INFO] -   Department: Students
+2026-03-24 09:43:21 [INFO] -   Title: MS IT Student
+2026-03-24 09:43:21 [INFO] -   Manager: Department Head
+2026-03-24 09:43:21 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:21 [INFO] -   Phone: +92-51-1234682
+2026-03-24 09:43:21 [INFO] -   Email: r
+2026-03-24 09:43:21 [INFO] -   EmployeeID: STU59.PadLeft(3
+2026-03-24 09:43:21 [INFO] -   Start Date: '0')
+2026-03-24 09:43:21 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\rusman
+2026-03-24 09:43:21 [INFO] -   Added to group: Students
+2026-03-24 09:43:21 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:21 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:21 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:21 [INFO] -   Mailbox created: r
+2026-03-24 09:43:21 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:21 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\mwahid
+2026-03-24 09:43:21 [SUCCESS] - Creating user: mwahid
+2026-03-24 09:43:21 [INFO] -   Name: Muhammad Wahid
+2026-03-24 09:43:21 [INFO] -   Department: Students
+2026-03-24 09:43:21 [INFO] -   Title: PhD CS Student
+2026-03-24 09:43:21 [INFO] -   Manager: Department Head
+2026-03-24 09:43:21 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:21 [INFO] -   Phone: +92-51-1234683
+2026-03-24 09:43:21 [INFO] -   Email: m
+2026-03-24 09:43:21 [INFO] -   EmployeeID: STU60.PadLeft(3
+2026-03-24 09:43:21 [INFO] -   Start Date: '0')
+2026-03-24 09:43:21 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\mwahid
+2026-03-24 09:43:21 [INFO] -   Added to group: Students
+2026-03-24 09:43:21 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:21 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:21 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:21 [INFO] -   Mailbox created: m
+2026-03-24 09:43:21 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:21 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:21 [WARNING] - Duplicate username detected: akhan
+2026-03-24 09:43:21 [WARNING] - Adjusted username to: akhan61
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\akhan61
+2026-03-24 09:43:21 [SUCCESS] - Creating user: akhan61
+2026-03-24 09:43:21 [INFO] -   Name: Amina Khan
+2026-03-24 09:43:21 [INFO] -   Department: Students
+2026-03-24 09:43:21 [INFO] -   Title: BS Economics
+2026-03-24 09:43:21 [INFO] -   Manager: Department Head
+2026-03-24 09:43:21 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:21 [INFO] -   Phone: +92-51-1234684
+2026-03-24 09:43:21 [INFO] -   Email: a
+2026-03-24 09:43:21 [INFO] -   EmployeeID: STU61.PadLeft(3
+2026-03-24 09:43:21 [INFO] -   Start Date: '0')
+2026-03-24 09:43:21 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:21 [INFO] -   Home Directory: \\fs01\Students_Home\akhan61
+2026-03-24 09:43:21 [INFO] -   Added to group: Students
+2026-03-24 09:43:21 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:21 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:21 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:21 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:21 [INFO] -   Mailbox created: a
+2026-03-24 09:43:21 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:21 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Students_Home\hmalik
+2026-03-24 09:43:22 [SUCCESS] - Creating user: hmalik
+2026-03-24 09:43:22 [INFO] -   Name: Hassan Malik
+2026-03-24 09:43:22 [INFO] -   Department: Students
+2026-03-24 09:43:22 [INFO] -   Title: BS Business
+2026-03-24 09:43:22 [INFO] -   Manager: Department Head
+2026-03-24 09:43:22 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:22 [INFO] -   Phone: +92-51-1234685
+2026-03-24 09:43:22 [INFO] -   Email: h
+2026-03-24 09:43:22 [INFO] -   EmployeeID: STU62.PadLeft(3
+2026-03-24 09:43:22 [INFO] -   Start Date: '0')
+2026-03-24 09:43:22 [INFO] -   OU: OU=Students,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Students_Home\hmalik
+2026-03-24 09:43:22 [INFO] -   Added to group: Students
+2026-03-24 09:43:22 [INFO] -   Added to group: Lab_Access
+2026-03-24 09:43:22 [INFO] -   Added to group: Library_Access
+2026-03-24 09:43:22 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:22 [INFO] -   Added to distribution group: Students_All
+2026-03-24 09:43:22 [INFO] -   Drive mapping: U: -> \\fs01\Students_Home
+2026-03-24 09:43:22 [INFO] -   Mailbox created: h
+2026-03-24 09:43:22 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:22 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\ihassan
+2026-03-24 09:43:22 [SUCCESS] - Creating user: ihassan
+2026-03-24 09:43:22 [INFO] -   Name: Iqra Hassan
+2026-03-24 09:43:22 [INFO] -   Department: Finance
+2026-03-24 09:43:22 [INFO] -   Title: Finance Director
+2026-03-24 09:43:22 [INFO] -   Manager: CEO
+2026-03-24 09:43:22 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:22 [INFO] -   Phone: +92-51-1234581
+2026-03-24 09:43:22 [INFO] -   Email: ihassan@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   EmployeeID: FIN63.PadLeft(3
+2026-03-24 09:43:22 [INFO] -   Start Date: '0')
+2026-03-24 09:43:22 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\ihassan
+2026-03-24 09:43:22 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:22 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:22 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:22 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:22 [INFO] -   Mailbox created: ihassan@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:22 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\jali
+2026-03-24 09:43:22 [SUCCESS] - Creating user: jali
+2026-03-24 09:43:22 [INFO] -   Name: Junaid Ali
+2026-03-24 09:43:22 [INFO] -   Department: Finance
+2026-03-24 09:43:22 [INFO] -   Title: Senior Accountant
+2026-03-24 09:43:22 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:22 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:22 [INFO] -   Phone: +92-51-1234582
+2026-03-24 09:43:22 [INFO] -   Email: jali@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   EmployeeID: FIN64.PadLeft(3
+2026-03-24 09:43:22 [INFO] -   Start Date: '0')
+2026-03-24 09:43:22 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\jali
+2026-03-24 09:43:22 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:22 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:22 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:22 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:22 [INFO] -   Mailbox created: jali@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:22 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\kahmed
+2026-03-24 09:43:22 [SUCCESS] - Creating user: kahmed
+2026-03-24 09:43:22 [INFO] -   Name: Kiran Ahmed
+2026-03-24 09:43:22 [INFO] -   Department: Finance
+2026-03-24 09:43:22 [INFO] -   Title: Accountant
+2026-03-24 09:43:22 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:22 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:22 [INFO] -   Phone: +92-51-1234583
+2026-03-24 09:43:22 [INFO] -   Email: kahmed@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   EmployeeID: FIN65.PadLeft(3
+2026-03-24 09:43:22 [INFO] -   Start Date: '0')
+2026-03-24 09:43:22 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\kahmed
+2026-03-24 09:43:22 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:22 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:22 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:22 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:22 [INFO] -   Mailbox created: kahmed@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:22 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\mraza
+2026-03-24 09:43:22 [SUCCESS] - Creating user: mraza
+2026-03-24 09:43:22 [INFO] -   Name: Maham Raza
+2026-03-24 09:43:22 [INFO] -   Department: Finance
+2026-03-24 09:43:22 [INFO] -   Title: Payroll Specialist
+2026-03-24 09:43:22 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:22 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:22 [INFO] -   Phone: +92-51-1234584
+2026-03-24 09:43:22 [INFO] -   Email: mraza@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   EmployeeID: FIN66.PadLeft(3
+2026-03-24 09:43:22 [INFO] -   Start Date: '0')
+2026-03-24 09:43:22 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\mraza
+2026-03-24 09:43:22 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:22 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:22 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:22 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:22 [INFO] -   Mailbox created: mraza@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:22 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\nakhtar
+2026-03-24 09:43:22 [SUCCESS] - Creating user: nakhtar
+2026-03-24 09:43:22 [INFO] -   Name: Noman Akhtar
+2026-03-24 09:43:22 [INFO] -   Department: Finance
+2026-03-24 09:43:22 [INFO] -   Title: Auditor
+2026-03-24 09:43:22 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:22 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:22 [INFO] -   Phone: +92-51-1234585
+2026-03-24 09:43:22 [INFO] -   Email: nakhtar@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   EmployeeID: FIN67.PadLeft(3
+2026-03-24 09:43:22 [INFO] -   Start Date: '0')
+2026-03-24 09:43:22 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\nakhtar
+2026-03-24 09:43:22 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:22 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:22 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:22 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:22 [INFO] -   Mailbox created: nakhtar@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:22 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\pshah
+2026-03-24 09:43:22 [SUCCESS] - Creating user: pshah
+2026-03-24 09:43:22 [INFO] -   Name: Parveen Shah
+2026-03-24 09:43:22 [INFO] -   Department: Finance
+2026-03-24 09:43:22 [INFO] -   Title: Budget Analyst
+2026-03-24 09:43:22 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:22 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:22 [INFO] -   Phone: +92-51-1234586
+2026-03-24 09:43:22 [INFO] -   Email: pshah@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   EmployeeID: FIN68.PadLeft(3
+2026-03-24 09:43:22 [INFO] -   Start Date: '0')
+2026-03-24 09:43:22 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\pshah
+2026-03-24 09:43:22 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:22 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:22 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:22 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:22 [INFO] -   Mailbox created: pshah@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:22 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\qchaudhry
+2026-03-24 09:43:22 [SUCCESS] - Creating user: qchaudhry
+2026-03-24 09:43:22 [INFO] -   Name: Qasim Chaudhry
+2026-03-24 09:43:22 [INFO] -   Department: Finance
+2026-03-24 09:43:22 [INFO] -   Title: Tax Specialist
+2026-03-24 09:43:22 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:22 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:22 [INFO] -   Phone: +92-51-1234587
+2026-03-24 09:43:22 [INFO] -   Email: qchaudhry@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   EmployeeID: FIN69.PadLeft(3
+2026-03-24 09:43:22 [INFO] -   Start Date: '0')
+2026-03-24 09:43:22 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\qchaudhry
+2026-03-24 09:43:22 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:22 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:22 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:22 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:22 [INFO] -   Mailbox created: qchaudhry@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:22 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\rtariq
+2026-03-24 09:43:22 [SUCCESS] - Creating user: rtariq
+2026-03-24 09:43:22 [INFO] -   Name: Rukhsana Tariq
+2026-03-24 09:43:22 [INFO] -   Department: Finance
+2026-03-24 09:43:22 [INFO] -   Title: Accounts Receivable
+2026-03-24 09:43:22 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:22 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:22 [INFO] -   Phone: +92-51-1234588
+2026-03-24 09:43:22 [INFO] -   Email: rtariq@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   EmployeeID: FIN70.PadLeft(3
+2026-03-24 09:43:22 [INFO] -   Start Date: '0')
+2026-03-24 09:43:22 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\rtariq
+2026-03-24 09:43:22 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:22 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:22 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:22 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:22 [INFO] -   Mailbox created: rtariq@resourceacademia.local
+2026-03-24 09:43:22 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:22 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:22 [INFO] -   Home Directory: \\fs01\Finance_Home\sriaz
+2026-03-24 09:43:23 [SUCCESS] - Creating user: sriaz
+2026-03-24 09:43:23 [INFO] -   Name: Saad Riaz
+2026-03-24 09:43:23 [INFO] -   Department: Finance
+2026-03-24 09:43:23 [INFO] -   Title: Accounts Payable
+2026-03-24 09:43:23 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234589
+2026-03-24 09:43:23 [INFO] -   Email: sriaz@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   EmployeeID: FIN71.PadLeft(3
+2026-03-24 09:43:23 [INFO] -   Start Date: '0')
+2026-03-24 09:43:23 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Finance_Home\sriaz
+2026-03-24 09:43:23 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:23 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:23 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:23 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:23 [INFO] -   Mailbox created: sriaz@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:23 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Finance_Home\tzahra
+2026-03-24 09:43:23 [SUCCESS] - Creating user: tzahra
+2026-03-24 09:43:23 [INFO] -   Name: Tahir Zahra
+2026-03-24 09:43:23 [INFO] -   Department: Finance
+2026-03-24 09:43:23 [INFO] -   Title: Financial Analyst
+2026-03-24 09:43:23 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234590
+2026-03-24 09:43:23 [INFO] -   Email: tzahra@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   EmployeeID: FIN72.PadLeft(3
+2026-03-24 09:43:23 [INFO] -   Start Date: '0')
+2026-03-24 09:43:23 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Finance_Home\tzahra
+2026-03-24 09:43:23 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:23 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:23 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:23 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:23 [INFO] -   Mailbox created: tzahra@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:23 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Finance_Home\uabbas
+2026-03-24 09:43:23 [SUCCESS] - Creating user: uabbas
+2026-03-24 09:43:23 [INFO] -   Name: Uzma Abbas
+2026-03-24 09:43:23 [INFO] -   Department: Finance
+2026-03-24 09:43:23 [INFO] -   Title: Treasury Manager
+2026-03-24 09:43:23 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234591
+2026-03-24 09:43:23 [INFO] -   Email: uabbas@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   EmployeeID: FIN73.PadLeft(3
+2026-03-24 09:43:23 [INFO] -   Start Date: '0')
+2026-03-24 09:43:23 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Finance_Home\uabbas
+2026-03-24 09:43:23 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:23 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:23 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:23 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:23 [INFO] -   Mailbox created: uabbas@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:23 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Finance_Home\wbhatti
+2026-03-24 09:43:23 [SUCCESS] - Creating user: wbhatti
+2026-03-24 09:43:23 [INFO] -   Name: Waqar Bhatti
+2026-03-24 09:43:23 [INFO] -   Department: Finance
+2026-03-24 09:43:23 [INFO] -   Title: Risk Analyst
+2026-03-24 09:43:23 [INFO] -   Manager: Omar Malik
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234592
+2026-03-24 09:43:23 [INFO] -   Email: wbhatti@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   EmployeeID: FIN74.PadLeft(3
+2026-03-24 09:43:23 [INFO] -   Start Date: '0')
+2026-03-24 09:43:23 [INFO] -   OU: OU=Finance,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Finance_Home\wbhatti
+2026-03-24 09:43:23 [INFO] -   Added to group: Finance_Staff
+2026-03-24 09:43:23 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:23 [INFO] -   Added to distribution group: Finance_All
+2026-03-24 09:43:23 [INFO] -   Drive mapping: H: -> \\fs01\Finance_Home
+2026-03-24 09:43:23 [INFO] -   Mailbox created: wbhatti@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:23 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\ybutt
+2026-03-24 09:43:23 [SUCCESS] - Creating user: ybutt
+2026-03-24 09:43:23 [INFO] -   Name: Yasmeen Butt
+2026-03-24 09:43:23 [INFO] -   Department: Admin
+2026-03-24 09:43:23 [INFO] -   Title: HR Director
+2026-03-24 09:43:23 [INFO] -   Manager: CEO
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234681
+2026-03-24 09:43:23 [INFO] -   Email: ybutt@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   EmployeeID: ADM75.PadLeft(3
+2026-03-24 09:43:23 [INFO] -   Start Date: '0')
+2026-03-24 09:43:23 [INFO] -   OU: OU=Admin,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\ybutt
+2026-03-24 09:43:23 [INFO] -   Added to group: Admin_Staff
+2026-03-24 09:43:23 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:23 [INFO] -   Added to distribution group: Admin_All
+2026-03-24 09:43:23 [INFO] -   Drive mapping: H: -> \\fs01\Admin_Home
+2026-03-24 09:43:23 [INFO] -   Mailbox created: ybutt@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:23 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:23 [WARNING] - Duplicate username detected: zdar
+2026-03-24 09:43:23 [WARNING] - Adjusted username to: zdar76
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\zdar76
+2026-03-24 09:43:23 [SUCCESS] - Creating user: zdar76
+2026-03-24 09:43:23 [INFO] -   Name: Zafar Dar
+2026-03-24 09:43:23 [INFO] -   Department: Admin
+2026-03-24 09:43:23 [INFO] -   Title: Admin Officer
+2026-03-24 09:43:23 [INFO] -   Manager: Hina Tariq
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234682
+2026-03-24 09:43:23 [INFO] -   Email: zdar76@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   EmployeeID: ADM76.PadLeft(3
+2026-03-24 09:43:23 [INFO] -   Start Date: '0')
+2026-03-24 09:43:23 [INFO] -   OU: OU=Admin,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\zdar76
+2026-03-24 09:43:23 [INFO] -   Added to group: Admin_Staff
+2026-03-24 09:43:23 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:23 [INFO] -   Added to distribution group: Admin_All
+2026-03-24 09:43:23 [INFO] -   Drive mapping: H: -> \\fs01\Admin_Home
+2026-03-24 09:43:23 [INFO] -   Mailbox created: zdar76@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:23 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\afarooq
+2026-03-24 09:43:23 [SUCCESS] - Creating user: afarooq
+2026-03-24 09:43:23 [INFO] -   Name: Abrar Farooq
+2026-03-24 09:43:23 [INFO] -   Department: Admin
+2026-03-24 09:43:23 [INFO] -   Title: Receptionist
+2026-03-24 09:43:23 [INFO] -   Manager: Hina Tariq
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234683
+2026-03-24 09:43:23 [INFO] -   Email: afarooq@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   EmployeeID: ADM77.PadLeft(3
+2026-03-24 09:43:23 [INFO] -   Start Date: '0')
+2026-03-24 09:43:23 [INFO] -   OU: OU=Admin,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\afarooq
+2026-03-24 09:43:23 [INFO] -   Added to group: Admin_Staff
+2026-03-24 09:43:23 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:23 [INFO] -   Added to distribution group: Admin_All
+2026-03-24 09:43:23 [INFO] -   Drive mapping: H: -> \\fs01\Admin_Home
+2026-03-24 09:43:23 [INFO] -   Mailbox created: afarooq@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:23 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\bgill
+2026-03-24 09:43:23 [SUCCESS] - Creating user: bgill
+2026-03-24 09:43:23 [INFO] -   Name: Bushra Gill
+2026-03-24 09:43:23 [INFO] -   Department: Admin
+2026-03-24 09:43:23 [INFO] -   Title: Facility Manager
+2026-03-24 09:43:23 [INFO] -   Manager: Hina Tariq
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234684
+2026-03-24 09:43:23 [INFO] -   Email: bgill@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   EmployeeID: ADM78.PadLeft(3
+2026-03-24 09:43:23 [INFO] -   Start Date: '0')
+2026-03-24 09:43:23 [INFO] -   OU: OU=Admin,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\bgill
+2026-03-24 09:43:23 [INFO] -   Added to group: Admin_Staff
+2026-03-24 09:43:23 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:23 [INFO] -   Added to distribution group: Admin_All
+2026-03-24 09:43:23 [INFO] -   Drive mapping: H: -> \\fs01\Admin_Home
+2026-03-24 09:43:23 [INFO] -   Mailbox created: bgill@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:23 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\dhashmi
+2026-03-24 09:43:23 [SUCCESS] - Creating user: dhashmi
+2026-03-24 09:43:23 [INFO] -   Name: Danish Hashmi
+2026-03-24 09:43:23 [INFO] -   Department: Admin
+2026-03-24 09:43:23 [INFO] -   Title: HR Generalist
+2026-03-24 09:43:23 [INFO] -   Manager: Hina Tariq
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234685
+2026-03-24 09:43:23 [INFO] -   Email: dhashmi@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   EmployeeID: ADM79.PadLeft(3
+2026-03-24 09:43:23 [INFO] -   Start Date: '0')
+2026-03-24 09:43:23 [INFO] -   OU: OU=Admin,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\dhashmi
+2026-03-24 09:43:23 [INFO] -   Added to group: Admin_Staff
+2026-03-24 09:43:23 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:23 [INFO] -   Added to distribution group: Admin_All
+2026-03-24 09:43:23 [INFO] -   Drive mapping: H: -> \\fs01\Admin_Home
+2026-03-24 09:43:23 [INFO] -   Mailbox created: dhashmi@resourceacademia.local
+2026-03-24 09:43:23 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:23 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:23 [INFO] -   Home Directory: \\fs01\Admin_Home\eiqbal
+2026-03-24 09:43:23 [SUCCESS] - Creating user: eiqbal
+2026-03-24 09:43:23 [INFO] -   Name: Eman Iqbal
+2026-03-24 09:43:23 [INFO] -   Department: Admin
+2026-03-24 09:43:23 [INFO] -   Title: Admin Assistant
+2026-03-24 09:43:23 [INFO] -   Manager: Hina Tariq
+2026-03-24 09:43:23 [INFO] -   Office: Islamabad-Head Office
+2026-03-24 09:43:23 [INFO] -   Phone: +92-51-1234686
+2026-03-24 09:43:24 [INFO] -   Email: eiqbal@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: ADM80.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Admin,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Admin_Home\eiqbal
+2026-03-24 09:43:24 [INFO] -   Added to group: Admin_Staff
+2026-03-24 09:43:24 [INFO] -   Added to group: VPN_Users
+2026-03-24 09:43:24 [INFO] -   Added to distribution group: Admin_All
+2026-03-24 09:43:24 [INFO] -   Drive mapping: H: -> \\fs01\Admin_Home
+2026-03-24 09:43:24 [INFO] -   Mailbox created: eiqbal@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:24 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:24 [WARNING] - Duplicate username detected: ajaved
+2026-03-24 09:43:24 [WARNING] - Adjusted username to: ajaved81
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\ajaved81
+2026-03-24 09:43:24 [SUCCESS] - Creating user: ajaved81
+2026-03-24 09:43:24 [INFO] -   Name: Ahmed Javed
+2026-03-24 09:43:24 [INFO] -   Department: Teachers
+2026-03-24 09:43:24 [INFO] -   Title: Professor Computer Science
+2026-03-24 09:43:24 [INFO] -   Manager: CEO
+2026-03-24 09:43:24 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:24 [INFO] -   Phone: +92-51-1234601
+2026-03-24 09:43:24 [INFO] -   Email: ajaved81@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: TEA81.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\ajaved81
+2026-03-24 09:43:24 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:24 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:24 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:24 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:24 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:24 [INFO] -   Mailbox created: ajaved81@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:24 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\fkhalid
+2026-03-24 09:43:24 [SUCCESS] - Creating user: fkhalid
+2026-03-24 09:43:24 [INFO] -   Name: Fatima Khalid
+2026-03-24 09:43:24 [INFO] -   Department: Teachers
+2026-03-24 09:43:24 [INFO] -   Title: Senior Lecturer IT
+2026-03-24 09:43:24 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:24 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:24 [INFO] -   Phone: +92-51-1234602
+2026-03-24 09:43:24 [INFO] -   Email: fkhalid@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: TEA82.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\fkhalid
+2026-03-24 09:43:24 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:24 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:24 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:24 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:24 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:24 [INFO] -   Mailbox created: fkhalid@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:24 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\olatif
+2026-03-24 09:43:24 [SUCCESS] - Creating user: olatif
+2026-03-24 09:43:24 [INFO] -   Name: Omar Latif
+2026-03-24 09:43:24 [INFO] -   Department: Teachers
+2026-03-24 09:43:24 [INFO] -   Title: Professor Mathematics
+2026-03-24 09:43:24 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:24 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:24 [INFO] -   Phone: +92-51-1234603
+2026-03-24 09:43:24 [INFO] -   Email: olatif@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: TEA83.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\olatif
+2026-03-24 09:43:24 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:24 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:24 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:24 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:24 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:24 [INFO] -   Mailbox created: olatif@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:24 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\smirza
+2026-03-24 09:43:24 [SUCCESS] - Creating user: smirza
+2026-03-24 09:43:24 [INFO] -   Name: Sara Mirza
+2026-03-24 09:43:24 [INFO] -   Department: Teachers
+2026-03-24 09:43:24 [INFO] -   Title: Lecturer Networking
+2026-03-24 09:43:24 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:24 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:24 [INFO] -   Phone: +92-51-1234604
+2026-03-24 09:43:24 [INFO] -   Email: smirza@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: TEA84.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\smirza
+2026-03-24 09:43:24 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:24 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:24 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:24 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:24 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:24 [INFO] -   Mailbox created: smirza@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:24 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\unawaz
+2026-03-24 09:43:24 [SUCCESS] - Creating user: unawaz
+2026-03-24 09:43:24 [INFO] -   Name: Usman Nawaz
+2026-03-24 09:43:24 [INFO] -   Department: Teachers
+2026-03-24 09:43:24 [INFO] -   Title: Lecturer Programming
+2026-03-24 09:43:24 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:24 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:24 [INFO] -   Phone: +92-51-1234605
+2026-03-24 09:43:24 [INFO] -   Email: unawaz@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: TEA85.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\unawaz
+2026-03-24 09:43:24 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:24 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:24 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:24 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:24 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:24 [INFO] -   Mailbox created: unawaz@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:24 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\zqureshi
+2026-03-24 09:43:24 [SUCCESS] - Creating user: zqureshi
+2026-03-24 09:43:24 [INFO] -   Name: Zara Qureshi
+2026-03-24 09:43:24 [INFO] -   Department: Teachers
+2026-03-24 09:43:24 [INFO] -   Title: Associate Professor English
+2026-03-24 09:43:24 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:24 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:24 [INFO] -   Phone: +92-51-1234606
+2026-03-24 09:43:24 [INFO] -   Email: zqureshi@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: TEA86.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\zqureshi
+2026-03-24 09:43:24 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:24 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:24 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:24 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:24 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:24 [INFO] -   Mailbox created: zqureshi@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:24 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\brana
+2026-03-24 09:43:24 [SUCCESS] - Creating user: brana
+2026-03-24 09:43:24 [INFO] -   Name: Bilal Rana
+2026-03-24 09:43:24 [INFO] -   Department: Teachers
+2026-03-24 09:43:24 [INFO] -   Title: Professor Physics
+2026-03-24 09:43:24 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:24 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:24 [INFO] -   Phone: +92-51-1234607
+2026-03-24 09:43:24 [INFO] -   Email: brana@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: TEA87.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\brana
+2026-03-24 09:43:24 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:24 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:24 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:24 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:24 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:24 [INFO] -   Mailbox created: brana@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:24 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\asiddiqui
+2026-03-24 09:43:24 [SUCCESS] - Creating user: asiddiqui
+2026-03-24 09:43:24 [INFO] -   Name: Ayesha Siddiqui
+2026-03-24 09:43:24 [INFO] -   Department: Teachers
+2026-03-24 09:43:24 [INFO] -   Title: Lecturer Mathematics
+2026-03-24 09:43:24 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:24 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:24 [INFO] -   Phone: +92-51-1234608
+2026-03-24 09:43:24 [INFO] -   Email: asiddiqui@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: TEA88.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\asiddiqui
+2026-03-24 09:43:24 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:24 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:24 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:24 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:24 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:24 [INFO] -   Mailbox created: asiddiqui@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:24 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\husman
+2026-03-24 09:43:24 [SUCCESS] - Creating user: husman
+2026-03-24 09:43:24 [INFO] -   Name: Hamza Usman
+2026-03-24 09:43:24 [INFO] -   Department: Teachers
+2026-03-24 09:43:24 [INFO] -   Title: Lecturer English
+2026-03-24 09:43:24 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:24 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:24 [INFO] -   Phone: +92-51-1234609
+2026-03-24 09:43:24 [INFO] -   Email: husman@resourceacademia.local
+2026-03-24 09:43:24 [INFO] -   EmployeeID: TEA89.PadLeft(3
+2026-03-24 09:43:24 [INFO] -   Start Date: '0')
+2026-03-24 09:43:24 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:24 [INFO] -   Home Directory: \\fs01\Teachers_Home\husman
+2026-03-24 09:43:24 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:24 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:24 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: husman@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:25 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\swahid
+2026-03-24 09:43:25 [SUCCESS] - Creating user: swahid
+2026-03-24 09:43:25 [INFO] -   Name: Sana Wahid
+2026-03-24 09:43:25 [INFO] -   Department: Teachers
+2026-03-24 09:43:25 [INFO] -   Title: Associate Professor CS
+2026-03-24 09:43:25 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:25 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:25 [INFO] -   Phone: +92-51-1234610
+2026-03-24 09:43:25 [INFO] -   Email: swahid@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   EmployeeID: TEA90.PadLeft(3
+2026-03-24 09:43:25 [INFO] -   Start Date: '0')
+2026-03-24 09:43:25 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\swahid
+2026-03-24 09:43:25 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:25 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:25 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: swahid@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:25 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:25 [WARNING] - Duplicate username detected: akhan
+2026-03-24 09:43:25 [WARNING] - Adjusted username to: akhan91
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\akhan91
+2026-03-24 09:43:25 [SUCCESS] - Creating user: akhan91
+2026-03-24 09:43:25 [INFO] -   Name: Ali Khan
+2026-03-24 09:43:25 [INFO] -   Department: Teachers
+2026-03-24 09:43:25 [INFO] -   Title: Professor Chemistry
+2026-03-24 09:43:25 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:25 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:25 [INFO] -   Phone: +92-51-1234611
+2026-03-24 09:43:25 [INFO] -   Email: akhan91@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   EmployeeID: TEA91.PadLeft(3
+2026-03-24 09:43:25 [INFO] -   Start Date: '0')
+2026-03-24 09:43:25 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\akhan91
+2026-03-24 09:43:25 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:25 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:25 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: akhan91@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:25 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:25 [WARNING] - Duplicate username detected: hmalik
+2026-03-24 09:43:25 [WARNING] - Adjusted username to: hmalik92
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\hmalik92
+2026-03-24 09:43:25 [SUCCESS] - Creating user: hmalik92
+2026-03-24 09:43:25 [INFO] -   Name: Hina Malik
+2026-03-24 09:43:25 [INFO] -   Department: Teachers
+2026-03-24 09:43:25 [INFO] -   Title: Lecturer Biology
+2026-03-24 09:43:25 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:25 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:25 [INFO] -   Phone: +92-51-1234612
+2026-03-24 09:43:25 [INFO] -   Email: hmalik92@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   EmployeeID: TEA92.PadLeft(3
+2026-03-24 09:43:25 [INFO] -   Start Date: '0')
+2026-03-24 09:43:25 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\hmalik92
+2026-03-24 09:43:25 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:25 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:25 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: hmalik92@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:25 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:25 [WARNING] - Duplicate username detected: ihassan
+2026-03-24 09:43:25 [WARNING] - Adjusted username to: ihassan93
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\ihassan93
+2026-03-24 09:43:25 [SUCCESS] - Creating user: ihassan93
+2026-03-24 09:43:25 [INFO] -   Name: Imran Hassan
+2026-03-24 09:43:25 [INFO] -   Department: Teachers
+2026-03-24 09:43:25 [INFO] -   Title: Professor Economics
+2026-03-24 09:43:25 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:25 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:25 [INFO] -   Phone: +92-51-1234613
+2026-03-24 09:43:25 [INFO] -   Email: ihassan93@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   EmployeeID: TEA93.PadLeft(3
+2026-03-24 09:43:25 [INFO] -   Start Date: '0')
+2026-03-24 09:43:25 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\ihassan93
+2026-03-24 09:43:25 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:25 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:25 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: ihassan93@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:25 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\rali
+2026-03-24 09:43:25 [SUCCESS] - Creating user: rali
+2026-03-24 09:43:25 [INFO] -   Name: Rabia Ali
+2026-03-24 09:43:25 [INFO] -   Department: Teachers
+2026-03-24 09:43:25 [INFO] -   Title: Lecturer Business
+2026-03-24 09:43:25 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:25 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:25 [INFO] -   Phone: +92-51-1234614
+2026-03-24 09:43:25 [INFO] -   Email: rali@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   EmployeeID: TEA94.PadLeft(3
+2026-03-24 09:43:25 [INFO] -   Start Date: '0')
+2026-03-24 09:43:25 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\rali
+2026-03-24 09:43:25 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:25 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:25 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: rali@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:25 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\zahmed
+2026-03-24 09:43:25 [SUCCESS] - Creating user: zahmed
+2026-03-24 09:43:25 [INFO] -   Name: Zain Ahmed
+2026-03-24 09:43:25 [INFO] -   Department: Teachers
+2026-03-24 09:43:25 [INFO] -   Title: Professor Psychology
+2026-03-24 09:43:25 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:25 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:25 [INFO] -   Phone: +92-51-1234615
+2026-03-24 09:43:25 [INFO] -   Email: zahmed@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   EmployeeID: TEA95.PadLeft(3
+2026-03-24 09:43:25 [INFO] -   Start Date: '0')
+2026-03-24 09:43:25 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\zahmed
+2026-03-24 09:43:25 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:25 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:25 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: zahmed@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:25 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\sraza
+2026-03-24 09:43:25 [SUCCESS] - Creating user: sraza
+2026-03-24 09:43:25 [INFO] -   Name: Saima Raza
+2026-03-24 09:43:25 [INFO] -   Department: Teachers
+2026-03-24 09:43:25 [INFO] -   Title: Lecturer History
+2026-03-24 09:43:25 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:25 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:25 [INFO] -   Phone: +92-51-1234616
+2026-03-24 09:43:25 [INFO] -   Email: sraza@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   EmployeeID: TEA96.PadLeft(3
+2026-03-24 09:43:25 [INFO] -   Start Date: '0')
+2026-03-24 09:43:25 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\sraza
+2026-03-24 09:43:25 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:25 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:25 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: sraza@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:25 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\kakhtar
+2026-03-24 09:43:25 [SUCCESS] - Creating user: kakhtar
+2026-03-24 09:43:25 [INFO] -   Name: Khalid Akhtar
+2026-03-24 09:43:25 [INFO] -   Department: Teachers
+2026-03-24 09:43:25 [INFO] -   Title: Associate Professor Law
+2026-03-24 09:43:25 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:25 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:25 [INFO] -   Phone: +92-51-1234617
+2026-03-24 09:43:25 [INFO] -   Email: kakhtar@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   EmployeeID: TEA97.PadLeft(3
+2026-03-24 09:43:25 [INFO] -   Start Date: '0')
+2026-03-24 09:43:25 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\kakhtar
+2026-03-24 09:43:25 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:25 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:25 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: kakhtar@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:25 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\nshah
+2026-03-24 09:43:25 [SUCCESS] - Creating user: nshah
+2026-03-24 09:43:25 [INFO] -   Name: Nadia Shah
+2026-03-24 09:43:25 [INFO] -   Department: Teachers
+2026-03-24 09:43:25 [INFO] -   Title: Lecturer Statistics
+2026-03-24 09:43:25 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:25 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:25 [INFO] -   Phone: +92-51-1234618
+2026-03-24 09:43:25 [INFO] -   Email: nshah@resourceacademia.local
+2026-03-24 09:43:25 [INFO] -   EmployeeID: TEA98.PadLeft(3
+2026-03-24 09:43:25 [INFO] -   Start Date: '0')
+2026-03-24 09:43:25 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:25 [INFO] -   Home Directory: \\fs01\Teachers_Home\nshah
+2026-03-24 09:43:25 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:25 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:25 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:25 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:25 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:25 [INFO] -   Mailbox created: nshah@resourceacademia.local
+2026-03-24 09:43:26 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:26 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:26 [INFO] -   Home Directory: \\fs01\Teachers_Home\rchaudhry
+2026-03-24 09:43:26 [SUCCESS] - Creating user: rchaudhry
+2026-03-24 09:43:26 [INFO] -   Name: Raza Chaudhry
+2026-03-24 09:43:26 [INFO] -   Department: Teachers
+2026-03-24 09:43:26 [INFO] -   Title: Professor Engineering
+2026-03-24 09:43:26 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:26 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:26 [INFO] -   Phone: +92-51-1234619
+2026-03-24 09:43:26 [INFO] -   Email: rchaudhry@resourceacademia.local
+2026-03-24 09:43:26 [INFO] -   EmployeeID: TEA99.PadLeft(3
+2026-03-24 09:43:26 [INFO] -   Start Date: '0')
+2026-03-24 09:43:26 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:26 [INFO] -   Home Directory: \\fs01\Teachers_Home\rchaudhry
+2026-03-24 09:43:26 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:26 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:26 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:26 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:26 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:26 [INFO] -   Mailbox created: rchaudhry@resourceacademia.local
+2026-03-24 09:43:26 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:26 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:26 [INFO] -   Home Directory: \\fs01\Teachers_Home\mtariq
+2026-03-24 09:43:26 [SUCCESS] - Creating user: mtariq
+2026-03-24 09:43:26 [INFO] -   Name: Muhammad Tariq
+2026-03-24 09:43:26 [INFO] -   Department: Teachers
+2026-03-24 09:43:26 [INFO] -   Title: Lecturer Design
+2026-03-24 09:43:26 [INFO] -   Manager: Dr. Muhammad Raza
+2026-03-24 09:43:26 [INFO] -   Office: Islamabad-Campus
+2026-03-24 09:43:26 [INFO] -   Phone: +92-51-1234620
+2026-03-24 09:43:26 [INFO] -   Email: mtariq@resourceacademia.local
+2026-03-24 09:43:26 [INFO] -   EmployeeID: TEA100.PadLeft(3
+2026-03-24 09:43:26 [INFO] -   Start Date: '0')
+2026-03-24 09:43:26 [INFO] -   OU: OU=Teachers,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:43:26 [INFO] -   Home Directory: \\fs01\Teachers_Home\mtariq
+2026-03-24 09:43:26 [INFO] -   Added to group: Faculty
+2026-03-24 09:43:26 [INFO] -   Added to group: WiFi_Access
+2026-03-24 09:43:26 [INFO] -   Added to group: Remote_Desktop_Users
+2026-03-24 09:43:26 [INFO] -   Added to distribution group: Teachers_All
+2026-03-24 09:43:26 [INFO] -   Drive mapping: H: -> \\fs01\Teachers_Home
+2026-03-24 09:43:26 [INFO] -   Mailbox created: mtariq@resourceacademia.local
+2026-03-24 09:43:26 [INFO] -   Mailbox size: 5GB
+2026-03-24 09:43:26 [INFO] -   Archive enabled: Yes
+2026-03-24 09:43:26 [INFO] - Creating distribution group: IT_All with 15 members
+2026-03-24 09:43:26 [INFO] - Creating distribution group: Marketing_All with 12 members
+2026-03-24 09:43:26 [INFO] - Creating distribution group: Students_All with 35 members
+2026-03-24 09:43:26 [INFO] - Creating distribution group: Finance_All with 12 members
+2026-03-24 09:43:26 [INFO] - Creating distribution group: Admin_All with 6 members
+2026-03-24 09:43:26 [INFO] - Creating distribution group: Teachers_All with 20 members
+2026-03-24 09:43:26 [INFO] - Shared drive: Company_Shared at \\fs01\Shared
+2026-03-24 09:43:26 [INFO] -   Permissions: Domain Users:Read, IT_Admins:Full
+2026-03-24 09:43:26 [INFO] - Shared drive: Public at \\fs01\Public
+2026-03-24 09:43:26 [INFO] -   Permissions: Everyone:Read
+2026-03-24 09:43:26 [INFO] - Shared drive: Departments at \\fs01\Departments
+2026-03-24 09:43:26 [INFO] -   Permissions: Department_Heads:Full
+2026-03-24 09:43:26 [INFO] - Onboarding completed. Success: 100, Failed: 0

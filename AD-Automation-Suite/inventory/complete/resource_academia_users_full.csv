@@ -1,0 +1,101 @@
+﻿FirstName,LastName,Department,Title,Manager,Office,Phone,Email,EmployeeID,StartDate
+Ahmed,Khan,IT,IT Director,CEO,Islamabad-Head Office,+92-51-1234568,ahmed.khan@resourceacademia.local,IT1.PadLeft(3,'0'),2024-11-24
+Fatima,Malik,IT,Network Administrator,Ahmed Hassan,Islamabad-Head Office,+92-51-1234569,fatima.malik@resourceacademia.local,IT2.PadLeft(3,'0'),2025-03-12
+Omar,Hassan,IT,System Administrator,Ahmed Hassan,Islamabad-Head Office,+92-51-1234570,omar.hassan@resourceacademia.local,IT3.PadLeft(3,'0'),2025-04-16
+Sara,Ali,IT,Help Desk Lead,Ahmed Hassan,Islamabad-Head Office,+92-51-1234571,sara.ali@resourceacademia.local,IT4.PadLeft(3,'0'),2024-12-30
+Usman,Ahmed,IT,Network Engineer,Ahmed Hassan,Islamabad-Head Office,+92-51-1234572,usman.ahmed@resourceacademia.local,IT5.PadLeft(3,'0'),2025-02-09
+Zara,Raza,IT,System Engineer,Ahmed Hassan,Islamabad-Head Office,+92-51-1234573,zara.raza@resourceacademia.local,IT6.PadLeft(3,'0'),2025-07-27
+Bilal,Akhtar,IT,Help Desk Technician,Ahmed Hassan,Islamabad-Head Office,+92-51-1234574,bilal.akhtar@resourceacademia.local,IT7.PadLeft(3,'0'),2025-06-03
+Ayesha,Shah,IT,IT Support Specialist,Ahmed Hassan,Islamabad-Head Office,+92-51-1234575,ayesha.shah@resourceacademia.local,IT8.PadLeft(3,'0'),2025-01-20
+Hamza,Chaudhry,IT,Database Administrator,Ahmed Hassan,Islamabad-Head Office,+92-51-1234576,hamza.chaudhry@resourceacademia.local,IT9.PadLeft(3,'0'),2025-10-22
+Sana,Tariq,IT,Security Analyst,Ahmed Hassan,Islamabad-Head Office,+92-51-1234577,sana.tariq@resourceacademia.local,IT10.PadLeft(3,'0'),2025-12-17
+Ali,Riaz,IT,Cloud Engineer,Ahmed Hassan,Islamabad-Head Office,+92-51-1234578,ali.riaz@resourceacademia.local,IT11.PadLeft(3,'0'),2026-03-17
+Hina,Zahra,IT,DevOps Engineer,Ahmed Hassan,Islamabad-Head Office,+92-51-1234579,hina.zahra@resourceacademia.local,IT12.PadLeft(3,'0'),2026-01-17
+Imran,Abbas,IT,IT Project Manager,Ahmed Hassan,Islamabad-Head Office,+92-51-1234580,imran.abbas@resourceacademia.local,IT13.PadLeft(3,'0'),2025-09-23
+Rabia,Bhatti,IT,Business Analyst,Ahmed Hassan,Islamabad-Head Office,+92-51-1234581,rabia.bhatti@resourceacademia.local,IT14.PadLeft(3,'0'),2024-08-06
+Zain,Butt,IT,IT Trainer,Ahmed Hassan,Islamabad-Head Office,+92-51-1234582,zain.butt@resourceacademia.local,IT15.PadLeft(3,'0'),2025-03-18
+Saima,Dar,Marketing,Marketing Director,CEO,Islamabad-Head Office,+92-51-1234591,saima.dar@resourceacademia.local,MAR16.PadLeft(3,'0'),2024-10-12
+Khalid,Farooq,Marketing,Digital Marketing Manager,Zain Malik,Islamabad-Head Office,+92-51-1234592,khalid.farooq@resourceacademia.local,MAR17.PadLeft(3,'0'),2024-09-19
+Nadia,Gill,Marketing,Content Creator,Zain Malik,Islamabad-Head Office,+92-51-1234593,nadia.gill@resourceacademia.local,MAR18.PadLeft(3,'0'),2024-06-30
+Raza,Hashmi,Marketing,Social Media Manager,Zain Malik,Islamabad-Head Office,+92-51-1234594,raza.hashmi@resourceacademia.local,MAR19.PadLeft(3,'0'),2025-11-01
+Muhammad,Iqbal,Marketing,SEO Specialist,Zain Malik,Islamabad-Head Office,+92-51-1234595,muhammad.iqbal@resourceacademia.local,MAR20.PadLeft(3,'0'),2025-09-13
+Amina,Javed,Marketing,Graphic Designer,Zain Malik,Islamabad-Head Office,+92-51-1234596,amina.javed@resourceacademia.local,MAR21.PadLeft(3,'0'),2025-01-04
+Hassan,Khalid,Marketing,Video Editor,Zain Malik,Islamabad-Head Office,+92-51-1234597,hassan.khalid@resourceacademia.local,MAR22.PadLeft(3,'0'),2024-12-27
+Iqra,Latif,Marketing,Email Marketing Specialist,Zain Malik,Islamabad-Head Office,+92-51-1234598,iqra.latif@resourceacademia.local,MAR23.PadLeft(3,'0'),2024-08-13
+Junaid,Mirza,Marketing,Marketing Analyst,Zain Malik,Islamabad-Head Office,+92-51-1234599,junaid.mirza@resourceacademia.local,MAR24.PadLeft(3,'0'),2025-07-23
+Kiran,Nawaz,Marketing,Brand Manager,Zain Malik,Islamabad-Head Office,+92-51-1234600,kiran.nawaz@resourceacademia.local,MAR25.PadLeft(3,'0'),2025-12-02
+Maham,Qureshi,Marketing,PR Specialist,Zain Malik,Islamabad-Head Office,+92-51-1234601,maham.qureshi@resourceacademia.local,MAR26.PadLeft(3,'0'),2025-02-05
+Noman,Rana,Marketing,Market Research Analyst,Zain Malik,Islamabad-Head Office,+92-51-1234602,noman.rana@resourceacademia.local,MAR27.PadLeft(3,'0'),2026-01-20
+Parveen,Siddiqui,Students,BS CS Student,CEO,Islamabad-Campus,+92-51-1234651,parveen.siddiqui@students.resourceacademia.local,STU28.PadLeft(3,'0'),2026-02-15
+Qasim,Usman,Students,BS IT Student,Department Head,Islamabad-Campus,+92-51-1234652,qasim.usman@students.resourceacademia.local,STU29.PadLeft(3,'0'),2026-01-28
+Rukhsana,Wahid,Students,BS SE Student,Department Head,Islamabad-Campus,+92-51-1234653,rukhsana.wahid@students.resourceacademia.local,STU30.PadLeft(3,'0'),2026-03-04
+Saad,Khan,Students,BS AI Student,Department Head,Islamabad-Campus,+92-51-1234654,saad.khan@students.resourceacademia.local,STU31.PadLeft(3,'0'),2026-03-16
+Tahir,Malik,Students,BS DS Student,Department Head,Islamabad-Campus,+92-51-1234655,tahir.malik@students.resourceacademia.local,STU32.PadLeft(3,'0'),2024-12-16
+Uzma,Hassan,Students,BS Cyber Security,Department Head,Islamabad-Campus,+92-51-1234656,uzma.hassan@students.resourceacademia.local,STU33.PadLeft(3,'0'),2024-09-15
+Waqar,Ali,Students,MS CS Student,Department Head,Islamabad-Campus,+92-51-1234657,waqar.ali@students.resourceacademia.local,STU34.PadLeft(3,'0'),2024-12-26
+Yasmeen,Ahmed,Students,MS IT Student,Department Head,Islamabad-Campus,+92-51-1234658,yasmeen.ahmed@students.resourceacademia.local,STU35.PadLeft(3,'0'),2025-12-01
+Zafar,Raza,Students,PhD CS Student,Department Head,Islamabad-Campus,+92-51-1234659,zafar.raza@students.resourceacademia.local,STU36.PadLeft(3,'0'),2025-12-18
+Abrar,Akhtar,Students,BS Economics,Department Head,Islamabad-Campus,+92-51-1234660,abrar.akhtar@students.resourceacademia.local,STU37.PadLeft(3,'0'),2024-05-07
+Bushra,Shah,Students,BS Business,Department Head,Islamabad-Campus,+92-51-1234661,bushra.shah@students.resourceacademia.local,STU38.PadLeft(3,'0'),2025-03-04
+Danish,Chaudhry,Students,BS Accounting,Department Head,Islamabad-Campus,+92-51-1234662,danish.chaudhry@students.resourceacademia.local,STU39.PadLeft(3,'0'),2026-02-11
+Eman,Tariq,Students,BS CS Student,Department Head,Islamabad-Campus,+92-51-1234663,eman.tariq@students.resourceacademia.local,STU40.PadLeft(3,'0'),2024-06-09
+Ahmed,Riaz,Students,BS IT Student,Department Head,Islamabad-Campus,+92-51-1234664,ahmed.riaz@students.resourceacademia.local,STU41.PadLeft(3,'0'),2025-08-03
+Fatima,Zahra,Students,BS SE Student,Department Head,Islamabad-Campus,+92-51-1234665,fatima.zahra@students.resourceacademia.local,STU42.PadLeft(3,'0'),2025-04-10
+Omar,Abbas,Students,BS AI Student,Department Head,Islamabad-Campus,+92-51-1234666,omar.abbas@students.resourceacademia.local,STU43.PadLeft(3,'0'),2025-10-10
+Sara,Bhatti,Students,BS DS Student,Department Head,Islamabad-Campus,+92-51-1234667,sara.bhatti@students.resourceacademia.local,STU44.PadLeft(3,'0'),2026-01-15
+Usman,Butt,Students,BS Cyber Security,Department Head,Islamabad-Campus,+92-51-1234668,usman.butt@students.resourceacademia.local,STU45.PadLeft(3,'0'),2024-07-05
+Zara,Dar,Students,MS CS Student,Department Head,Islamabad-Campus,+92-51-1234669,zara.dar@students.resourceacademia.local,STU46.PadLeft(3,'0'),2024-04-12
+Bilal,Farooq,Students,MS IT Student,Department Head,Islamabad-Campus,+92-51-1234670,bilal.farooq@students.resourceacademia.local,STU47.PadLeft(3,'0'),2026-03-09
+Ayesha,Gill,Students,PhD CS Student,Department Head,Islamabad-Campus,+92-51-1234671,ayesha.gill@students.resourceacademia.local,STU48.PadLeft(3,'0'),2026-02-15
+Hamza,Hashmi,Students,BS Economics,Department Head,Islamabad-Campus,+92-51-1234672,hamza.hashmi@students.resourceacademia.local,STU49.PadLeft(3,'0'),2024-09-18
+Sana,Iqbal,Students,BS Business,Department Head,Islamabad-Campus,+92-51-1234673,sana.iqbal@students.resourceacademia.local,STU50.PadLeft(3,'0'),2024-04-20
+Ali,Javed,Students,BS Accounting,Department Head,Islamabad-Campus,+92-51-1234674,ali.javed@students.resourceacademia.local,STU51.PadLeft(3,'0'),2025-12-13
+Hina,Khalid,Students,BS CS Student,Department Head,Islamabad-Campus,+92-51-1234675,hina.khalid@students.resourceacademia.local,STU52.PadLeft(3,'0'),2024-08-11
+Imran,Latif,Students,BS IT Student,Department Head,Islamabad-Campus,+92-51-1234676,imran.latif@students.resourceacademia.local,STU53.PadLeft(3,'0'),2025-03-06
+Rabia,Mirza,Students,BS SE Student,Department Head,Islamabad-Campus,+92-51-1234677,rabia.mirza@students.resourceacademia.local,STU54.PadLeft(3,'0'),2025-12-01
+Zain,Nawaz,Students,BS AI Student,Department Head,Islamabad-Campus,+92-51-1234678,zain.nawaz@students.resourceacademia.local,STU55.PadLeft(3,'0'),2024-07-07
+Saima,Qureshi,Students,BS DS Student,Department Head,Islamabad-Campus,+92-51-1234679,saima.qureshi@students.resourceacademia.local,STU56.PadLeft(3,'0'),2024-07-26
+Khalid,Rana,Students,BS Cyber Security,Department Head,Islamabad-Campus,+92-51-1234680,khalid.rana@students.resourceacademia.local,STU57.PadLeft(3,'0'),2025-01-21
+Nadia,Siddiqui,Students,MS CS Student,Department Head,Islamabad-Campus,+92-51-1234681,nadia.siddiqui@students.resourceacademia.local,STU58.PadLeft(3,'0'),2025-07-26
+Raza,Usman,Students,MS IT Student,Department Head,Islamabad-Campus,+92-51-1234682,raza.usman@students.resourceacademia.local,STU59.PadLeft(3,'0'),2024-11-22
+Muhammad,Wahid,Students,PhD CS Student,Department Head,Islamabad-Campus,+92-51-1234683,muhammad.wahid@students.resourceacademia.local,STU60.PadLeft(3,'0'),2024-10-12
+Amina,Khan,Students,BS Economics,Department Head,Islamabad-Campus,+92-51-1234684,amina.khan@students.resourceacademia.local,STU61.PadLeft(3,'0'),2025-03-01
+Hassan,Malik,Students,BS Business,Department Head,Islamabad-Campus,+92-51-1234685,hassan.malik@students.resourceacademia.local,STU62.PadLeft(3,'0'),2025-05-07
+Iqra,Hassan,Finance,Finance Director,CEO,Islamabad-Head Office,+92-51-1234581,iqra.hassan@resourceacademia.local,FIN63.PadLeft(3,'0'),2024-11-10
+Junaid,Ali,Finance,Senior Accountant,Omar Malik,Islamabad-Head Office,+92-51-1234582,junaid.ali@resourceacademia.local,FIN64.PadLeft(3,'0'),2024-09-09
+Kiran,Ahmed,Finance,Accountant,Omar Malik,Islamabad-Head Office,+92-51-1234583,kiran.ahmed@resourceacademia.local,FIN65.PadLeft(3,'0'),2024-04-08
+Maham,Raza,Finance,Payroll Specialist,Omar Malik,Islamabad-Head Office,+92-51-1234584,maham.raza@resourceacademia.local,FIN66.PadLeft(3,'0'),2025-01-23
+Noman,Akhtar,Finance,Auditor,Omar Malik,Islamabad-Head Office,+92-51-1234585,noman.akhtar@resourceacademia.local,FIN67.PadLeft(3,'0'),2024-11-07
+Parveen,Shah,Finance,Budget Analyst,Omar Malik,Islamabad-Head Office,+92-51-1234586,parveen.shah@resourceacademia.local,FIN68.PadLeft(3,'0'),2025-08-12
+Qasim,Chaudhry,Finance,Tax Specialist,Omar Malik,Islamabad-Head Office,+92-51-1234587,qasim.chaudhry@resourceacademia.local,FIN69.PadLeft(3,'0'),2025-06-26
+Rukhsana,Tariq,Finance,Accounts Receivable,Omar Malik,Islamabad-Head Office,+92-51-1234588,rukhsana.tariq@resourceacademia.local,FIN70.PadLeft(3,'0'),2025-03-22
+Saad,Riaz,Finance,Accounts Payable,Omar Malik,Islamabad-Head Office,+92-51-1234589,saad.riaz@resourceacademia.local,FIN71.PadLeft(3,'0'),2024-11-26
+Tahir,Zahra,Finance,Financial Analyst,Omar Malik,Islamabad-Head Office,+92-51-1234590,tahir.zahra@resourceacademia.local,FIN72.PadLeft(3,'0'),2025-01-04
+Uzma,Abbas,Finance,Treasury Manager,Omar Malik,Islamabad-Head Office,+92-51-1234591,uzma.abbas@resourceacademia.local,FIN73.PadLeft(3,'0'),2024-11-07
+Waqar,Bhatti,Finance,Risk Analyst,Omar Malik,Islamabad-Head Office,+92-51-1234592,waqar.bhatti@resourceacademia.local,FIN74.PadLeft(3,'0'),2024-06-04
+Yasmeen,Butt,Admin,HR Director,CEO,Islamabad-Head Office,+92-51-1234681,yasmeen.butt@resourceacademia.local,ADM75.PadLeft(3,'0'),2025-06-05
+Zafar,Dar,Admin,Admin Officer,Hina Tariq,Islamabad-Head Office,+92-51-1234682,zafar.dar@resourceacademia.local,ADM76.PadLeft(3,'0'),2025-01-22
+Abrar,Farooq,Admin,Receptionist,Hina Tariq,Islamabad-Head Office,+92-51-1234683,abrar.farooq@resourceacademia.local,ADM77.PadLeft(3,'0'),2025-09-15
+Bushra,Gill,Admin,Facility Manager,Hina Tariq,Islamabad-Head Office,+92-51-1234684,bushra.gill@resourceacademia.local,ADM78.PadLeft(3,'0'),2024-08-01
+Danish,Hashmi,Admin,HR Generalist,Hina Tariq,Islamabad-Head Office,+92-51-1234685,danish.hashmi@resourceacademia.local,ADM79.PadLeft(3,'0'),2024-10-20
+Eman,Iqbal,Admin,Admin Assistant,Hina Tariq,Islamabad-Head Office,+92-51-1234686,eman.iqbal@resourceacademia.local,ADM80.PadLeft(3,'0'),2024-08-22
+Ahmed,Javed,Teachers,Professor Computer Science,CEO,Islamabad-Campus,+92-51-1234601,ahmed.javed@resourceacademia.local,TEA81.PadLeft(3,'0'),2024-12-15
+Fatima,Khalid,Teachers,Senior Lecturer IT,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234602,fatima.khalid@resourceacademia.local,TEA82.PadLeft(3,'0'),2025-08-17
+Omar,Latif,Teachers,Professor Mathematics,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234603,omar.latif@resourceacademia.local,TEA83.PadLeft(3,'0'),2025-03-21
+Sara,Mirza,Teachers,Lecturer Networking,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234604,sara.mirza@resourceacademia.local,TEA84.PadLeft(3,'0'),2024-12-20
+Usman,Nawaz,Teachers,Lecturer Programming,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234605,usman.nawaz@resourceacademia.local,TEA85.PadLeft(3,'0'),2024-04-13
+Zara,Qureshi,Teachers,Associate Professor English,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234606,zara.qureshi@resourceacademia.local,TEA86.PadLeft(3,'0'),2026-01-10
+Bilal,Rana,Teachers,Professor Physics,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234607,bilal.rana@resourceacademia.local,TEA87.PadLeft(3,'0'),2025-07-04
+Ayesha,Siddiqui,Teachers,Lecturer Mathematics,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234608,ayesha.siddiqui@resourceacademia.local,TEA88.PadLeft(3,'0'),2024-05-11
+Hamza,Usman,Teachers,Lecturer English,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234609,hamza.usman@resourceacademia.local,TEA89.PadLeft(3,'0'),2024-09-27
+Sana,Wahid,Teachers,Associate Professor CS,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234610,sana.wahid@resourceacademia.local,TEA90.PadLeft(3,'0'),2025-12-04
+Ali,Khan,Teachers,Professor Chemistry,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234611,ali.khan@resourceacademia.local,TEA91.PadLeft(3,'0'),2025-08-22
+Hina,Malik,Teachers,Lecturer Biology,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234612,hina.malik@resourceacademia.local,TEA92.PadLeft(3,'0'),2024-11-08
+Imran,Hassan,Teachers,Professor Economics,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234613,imran.hassan@resourceacademia.local,TEA93.PadLeft(3,'0'),2025-09-19
+Rabia,Ali,Teachers,Lecturer Business,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234614,rabia.ali@resourceacademia.local,TEA94.PadLeft(3,'0'),2025-11-09
+Zain,Ahmed,Teachers,Professor Psychology,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234615,zain.ahmed@resourceacademia.local,TEA95.PadLeft(3,'0'),2024-06-27
+Saima,Raza,Teachers,Lecturer History,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234616,saima.raza@resourceacademia.local,TEA96.PadLeft(3,'0'),2024-11-20
+Khalid,Akhtar,Teachers,Associate Professor Law,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234617,khalid.akhtar@resourceacademia.local,TEA97.PadLeft(3,'0'),2024-04-17
+Nadia,Shah,Teachers,Lecturer Statistics,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234618,nadia.shah@resourceacademia.local,TEA98.PadLeft(3,'0'),2024-03-29
+Raza,Chaudhry,Teachers,Professor Engineering,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234619,raza.chaudhry@resourceacademia.local,TEA99.PadLeft(3,'0'),2025-09-17
+Muhammad,Tariq,Teachers,Lecturer Design,Dr. Muhammad Raza,Islamabad-Campus,+92-51-1234620,muhammad.tariq@resourceacademia.local,TEA100.PadLeft(3,'0'),2024-05-05

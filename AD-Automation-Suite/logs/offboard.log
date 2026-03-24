@@ -1,0 +1,7 @@
+2026-03-24 09:20:18 [INFO] - Found user: fkhan - Fatima Khan
+2026-03-24 09:20:31 [INFO] -   Removed from group: Finance_Staff
+2026-03-24 09:20:31 [INFO] - Account disabled for: fkhan
+2026-03-24 09:20:31 [INFO] - Moved user to: OU=Terminated,OU=Departments,DC=resourceacademia,DC=local
+2026-03-24 09:20:31 [INFO] - Termination notes: Termination - 2026-03-24
+2026-03-24 09:20:31 [INFO] - Offboarding completed for fkhan (Fatima Khan)
+2026-03-24 09:20:31 [INFO] - Offboarding process completed for fkhan
