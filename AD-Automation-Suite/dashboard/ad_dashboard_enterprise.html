@@ -1,481 +1,695 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resource Academia - Enterprise IT Management Dashboard | Israr Sadaq</title>
+    <title>AD Automation Suite | Israr Sadaq - Network Engineer</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root {
-            --primary: #1e3c72;
-            --secondary: #2a5298;
-            --accent: #ffd700;
-            --success: #28a745;
-            --warning: #ffc107;
-            --danger: #dc3545;
-            --info: #17a2b8;
-            --dark: #343a40;
-            --gray: #6c757d;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
+        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             min-height: 100vh;
-            padding: 20px;
         }
-        body.dark-mode {
-            background: linear-gradient(135deg, #0f0f1f 0%, #1a1a2e 100%);
-        }
-        .container { max-width: 1600px; margin: 0 auto; }
         
-        /* About Section */
-        .about-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 20px;
-            padding: 30px;
-            margin-bottom: 25px;
+        /* Header Section with Profile */
+        .profile-header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
+            padding: 50px 20px;
+            text-align: center;
         }
-        .about-content { display: flex; flex-wrap: wrap; gap: 30px; align-items: center; }
-        .about-avatar {
-            width: 100px; height: 100px;
-            background: var(--accent);
+        
+        .profile-avatar {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 48px;
+            margin: 0 auto 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
         }
-        .about-text { flex: 1; }
-        .about-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0; }
-        .about-badge { background: rgba(255,255,255,0.2); padding: 5px 12px; border-radius: 20px; font-size: 12px; }
-        .about-stats { display: flex; gap: 20px; margin-top: 15px; flex-wrap: wrap; }
-        .about-stat { background: rgba(255,255,255,0.15); padding: 8px 15px; border-radius: 10px; text-align: center; }
-        .purpose-box { background: rgba(255,255,255,0.1); border-radius: 15px; padding: 15px; margin-top: 15px; border-left: 4px solid var(--accent); }
         
-        /* Header */
-        .header {
-            background: white;
-            border-radius: 20px;
-            padding: 20px 25px;
-            margin-bottom: 25px;
+        .profile-name {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .profile-title {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+        
+        .profile-badges {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
             flex-wrap: wrap;
-            gap: 15px;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
         }
-        .btn {
-            padding: 8px 16px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 500;
-            transition: all 0.3s;
-        }
-        .btn-primary { background: var(--primary); color: white; }
-        .btn-accent { background: var(--accent); color: var(--primary); }
-        .btn-danger { background: var(--danger); color: white; }
         
-        /* Stats Grid */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 15px;
-            margin-bottom: 25px;
+        .profile-badge {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 25px;
+            font-size: 12px;
         }
+        
+        .project-intro {
+            max-width: 800px;
+            margin: 20px auto 0;
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 4px solid #ffd700;
+        }
+        
+        .project-intro h3 {
+            margin-bottom: 10px;
+        }
+        
+        .project-intro p {
+            font-size: 14px;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: -30px auto 30px;
+            padding: 0 20px;
+        }
+        
         .stat-card {
             background: white;
-            border-radius: 15px;
-            padding: 20px;
+            border-radius: 20px;
+            padding: 25px;
             text-align: center;
-            cursor: pointer;
-            transition: all 0.3s;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
         }
-        .stat-card:hover { transform: translateY(-3px); }
-        .stat-number { font-size: 32px; font-weight: bold; color: var(--primary); }
         
-        /* Grid Layout */
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 20px;
-            margin-bottom: 25px;
+        .stat-card:hover {
+            transform: translateY(-5px);
         }
-        .dashboard-card {
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #1e3c72;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+        
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Section Title */
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1e3c72;
+            margin: 30px 0 20px;
+            padding-left: 15px;
+            border-left: 4px solid #ffd700;
+        }
+        
+        /* Department Grid */
+        .department-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .department-card {
             background: white;
             border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+        
+        .department-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .department-header {
             padding: 20px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            color: white;
         }
-        .card-title {
-            font-size: 18px;
+        
+        .department-header.it { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .department-header.finance { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .department-header.marketing { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .department-header.teachers { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .department-header.students { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .department-header.admin { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); }
+        
+        .department-name {
+            font-size: 22px;
             font-weight: bold;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid var(--accent);
-            display: flex;
-            justify-content: space-between;
         }
-        .status-item {
-            padding: 10px;
+        
+        .department-count {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .department-body {
+            padding: 20px;
+        }
+        
+        .user-list {
+            list-style: none;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .user-list li {
+            padding: 12px 0;
             border-bottom: 1px solid #eee;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            cursor: pointer;
+            transition: background 0.2s;
         }
-        .status-badge {
+        
+        .user-list li:hover {
+            background: #f8f9fa;
+            padding-left: 10px;
+        }
+        
+        .user-name {
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .user-title {
+            font-size: 11px;
+            color: #999;
+        }
+        
+        .badge {
             padding: 2px 8px;
             border-radius: 12px;
-            font-size: 11px;
+            font-size: 10px;
             font-weight: bold;
         }
-        .status-probation { background: #fff3cd; color: #856404; }
-        .status-notice { background: #f8d7da; color: #721c24; }
-        .status-active { background: #d4edda; color: #155724; }
-        .progress-bar {
+        
+        .badge-active {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            max-width: 550px;
+            width: 90%;
+            max-height: 85vh;
+            overflow-y: auto;
+            animation: modalSlideIn 0.3s;
+        }
+        
+        @keyframes modalSlideIn {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .modal-header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 20px 20px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .modal-header h2 {
+            font-size: 20px;
+        }
+        
+        .close-modal {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 28px;
+            cursor: pointer;
+        }
+        
+        .modal-body {
+            padding: 20px;
+        }
+        
+        .info-section {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .info-row {
+            display: flex;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .info-label {
+            font-weight: bold;
+            width: 110px;
+            color: #666;
+        }
+        
+        .info-value {
+            color: #333;
+        }
+        
+        .asset-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .attendance-bar {
             background: #e0e0e0;
             border-radius: 10px;
             height: 8px;
-            overflow: hidden;
+            margin: 10px 0;
         }
-        .progress-fill {
-            background: var(--success);
-            height: 100%;
+        
+        .attendance-fill {
+            background: #28a745;
+            height: 8px;
             border-radius: 10px;
+            width: 0%;
         }
         
-        .ticket-priority-high { border-left: 3px solid var(--danger); background: #fee2e2; }
-        .ticket-priority-medium { border-left: 3px solid var(--warning); background: #fff3e0; }
-        .ticket-priority-low { border-left: 3px solid var(--success); background: #e8f5e9; }
+        /* Groups Section */
+        .groups-section {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
         
+        .groups-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .group-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 15px;
+            border-left: 4px solid #1e3c72;
+            transition: all 0.3s;
+        }
+        
+        .group-card:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+        }
+        
+        .group-name {
+            font-weight: bold;
+            color: #1e3c72;
+            margin-bottom: 5px;
+        }
+        
+        .group-members {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        /* Charts Section */
+        .charts-section {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .chart-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .chart-box {
+            text-align: center;
+        }
+        
+        .chart-box canvas {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* Footer */
         .footer {
             text-align: center;
-            color: rgba(255,255,255,0.8);
-            padding: 20px;
-            font-size: 12px;
+            padding: 30px;
+            color: #666;
+            border-top: 1px solid rgba(0,0,0,0.1);
+            margin-top: 30px;
         }
         
-        @media (max-width: 900px) {
-            .dashboard-grid { grid-template-columns: 1fr; }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            margin: 10px;
+            transition: all 0.3s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102,126,234,0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .chart-container {
+                grid-template-columns: 1fr;
+            }
+            .stats-bar {
+                margin-top: 20px;
+            }
+            .profile-name {
+                font-size: 28px;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .department-card, .group-card, .stat-card, .charts-section {
+            animation: fadeIn 0.5s ease-out;
         }
     </style>
 </head>
 <body>
-<div class="container">
+    <!-- Header with Profile and Project Intro -->
+    <div class="profile-header">
+        <div class="profile-avatar">👨‍💻</div>
+        <div class="profile-name">Israr Sadaq</div>
+        <div class="profile-title">Network Engineer | Network Automation Specialist | IT Administrator</div>
+        <div class="profile-badges">
+            <span class="profile-badge">🎓 CCNA</span>
+            <span class="profile-badge">🎓 CCNP</span>
+            <span class="profile-badge">⚙️ Industrial Automation</span>
+            <span class="profile-badge">📡 M.Sc. Information & Communication Engineering</span>
+            <span class="profile-badge">🐍 Python</span>
+            <span class="profile-badge">🖥️ PowerShell</span>
+        </div>
+        
+        <div class="project-intro">
+            <h3>🚀 AD Automation Suite - Project Overview</h3>
+            <p>This dashboard is part of a complete <strong>Active Directory Automation Suite</strong> built for <strong>Resource Academia International</strong>. 
+            It demonstrates enterprise-level IT management capabilities including user lifecycle management, asset tracking, attendance monitoring, 
+            IT support tickets, compliance training, and real-time analytics for 100+ users across 6 departments.</p>
+            <p style="margin-top: 10px;"><strong>📊 Click any employee to see their full profile with assets and attendance details!</strong></p>
+        </div>
+    </div>
     
-    <!-- About Section -->
-    <div class="about-section">
-        <div class="about-content">
-            <div class="about-avatar">👨‍💻</div>
-            <div class="about-text">
-                <h2>Israr Sadaq</h2>
-                <h3>Network Engineer | Network Automation Specialist | IT Administrator</h3>
-                <div class="about-badges">
-                    <span class="about-badge">🎓 CCNA</span>
-                    <span class="about-badge">🎓 CCNP</span>
-                    <span class="about-badge">⚙️ Industrial Automation</span>
-                    <span class="about-badge">📡 M.Sc. Information & Communication Engineering</span>
-                    <span class="about-badge">🐍 Python</span>
-                    <span class="about-badge">🖥️ PowerShell</span>
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="stat-card">
+            <div class="stat-number" id="totalUsers">100</div>
+            <div class="stat-label">Total Users</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="totalDepartments">6</div>
+            <div class="stat-label">Departments</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="totalGroups">12</div>
+            <div class="stat-label">Security Groups</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="activeUsers">100</div>
+            <div class="stat-label">Active Users</div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Department Section -->
+        <div class="section-title">📁 Departments Overview <span style="font-size: 14px; color: #666;">(Click any user for details)</span></div>
+        <div class="department-grid" id="departmentGrid"></div>
+        
+        <!-- Security Groups Section -->
+        <div class="section-title">🔐 Security Groups</div>
+        <div class="groups-section">
+            <div class="groups-grid" id="groupsGrid"></div>
+        </div>
+        
+        <!-- Charts Section -->
+        <div class="section-title">📊 Analytics</div>
+        <div class="charts-section">
+            <div class="chart-container">
+                <div class="chart-box">
+                    <canvas id="deptChart" width="400" height="300"></canvas>
+                    <p style="margin-top: 10px;">Users by Department</p>
                 </div>
-                <div class="about-stats">
-                    <div class="about-stat"><div class="about-stat-number">5+</div><div>Years Exp</div></div>
-                    <div class="about-stat"><div class="about-stat-number">100+</div><div>Users</div></div>
-                    <div class="about-stat"><div class="about-stat-number">6</div><div>Depts</div></div>
-                    <div class="about-stat"><div class="about-stat-number">12</div><div>Groups</div></div>
-                </div>
-                <div class="purpose-box">
-                    <strong>🎯 Enterprise IT Management Dashboard</strong><br>
-                    This dashboard demonstrates enterprise-level IT management capabilities including employee lifecycle tracking,
-                    asset management, IT support ticketing, compliance monitoring, and HR integration.
+                <div class="chart-box">
+                    <canvas id="groupChart" width="400" height="300"></canvas>
+                    <p style="margin-top: 10px;">Top Security Groups</p>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Header -->
-    <div class="header">
-        <div><h1>🏢 Resource Academia International</h1><p style="color:#666;">Enterprise IT Management Dashboard</p></div>
-        <div><button class="btn btn-accent" onclick="window.print()">🖨️ Print Report</button>
-        <button class="btn btn-primary" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
-        <button class="btn btn-primary" onclick="location.reload()">🔄 Refresh</button></div>
-    </div>
-
-    <!-- Quick Stats -->
-    <div class="stats-grid">
-        <div class="stat-card"><div class="stat-number" id="totalEmployees">108</div><div>Total Employees</div></div>
-        <div class="stat-card"><div class="stat-number" id="noticeCount">3</div><div>On Notice Period</div></div>
-        <div class="stat-card"><div class="stat-number" id="probationCount">8</div><div>On Probation</div></div>
-        <div class="stat-card"><div class="stat-number" id="anniversaryCount">12</div><div>Anniversaries This Month</div></div>
-        <div class="stat-card"><div class="stat-number" id="openTickets">14</div><div>Open IT Tickets</div></div>
-        <div class="stat-card"><div class="stat-number" id="complianceRate">94%</div><div>Compliance Rate</div></div>
-    </div>
-
-    <!-- Main Dashboard Grid -->
-    <div class="dashboard-grid">
         
-        <!-- 1. EMPLOYEES ON NOTICE PERIOD -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>⚠️ Employees on Notice Period</span><span class="status-badge status-notice">Action Required</span></div>
-            <div id="noticePeriodList"></div>
-            <div style="margin-top: 10px; font-size: 12px; color: #666;">📋 Exit interviews scheduled for this week</div>
-        </div>
-        
-        <!-- 2. PROBATION EMPLOYEES -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>📊 Employees on Probation</span><span class="status-badge status-probation">Review Required</span></div>
-            <div id="probationList"></div>
-            <div class="progress-bar" style="margin-top: 10px;"><div class="progress-fill" style="width: 65%;"></div></div>
-            <div style="font-size: 12px; margin-top: 5px;">65% completion rate for probation reviews</div>
-        </div>
-        
-        <!-- 3. UPCOMING WORK ANNIVERSARIES -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>🎉 Work Anniversaries (Next 30 Days)</span><span>🏆 Milestone Celebrations</span></div>
-            <div id="anniversaryList"></div>
-        </div>
-        
-        <!-- 4. IT SUPPORT TICKETS -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>🎫 IT Support Tickets</span><span>SLA: 95%</span></div>
-            <div id="ticketList"></div>
-            <div class="progress-bar" style="margin-top: 10px;"><div class="progress-fill" style="width: 78%;"></div></div>
-            <div style="font-size: 12px; margin-top: 5px;">78% resolved within SLA (Target: 95%)</div>
-        </div>
-        
-        <!-- 5. ASSET MANAGEMENT -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>💻 Hardware Assets</span><span>Total: 156</span></div>
-            <div id="assetList"></div>
-            <div class="progress-bar" style="margin-top: 10px;"><div class="progress-fill" style="width: 42%; background: var(--warning);"></div></div>
-            <div style="font-size: 12px;">42% of devices due for warranty renewal in 2026</div>
-        </div>
-        
-        <!-- 6. SOFTWARE LICENSES -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>📦 Software Licenses</span><span>Expiring Soon: 4</span></div>
-            <div id="licenseList"></div>
-        </div>
-        
-        <!-- 7. PENDING ACCESS REQUESTS -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>🔐 Pending Access Requests</span><span>Security Review</span></div>
-            <div id="accessRequestsList"></div>
-        </div>
-        
-        <!-- 8. COMPLIANCE TRAINING -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>📚 Compliance Training Status</span><span>Q2 2026</span></div>
-            <div id="complianceList"></div>
-            <div class="progress-bar" style="margin-top: 10px;"><div class="progress-fill" style="width: 94%; background: var(--success);"></div></div>
-            <div style="font-size: 12px;">94% completion rate for mandatory training</div>
-        </div>
-        
-        <!-- 9. ONBOARDING PIPELINE -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>🚀 Onboarding Pipeline</span><span>Next 90 Days</span></div>
-            <div id="onboardingList"></div>
-        </div>
-        
-        <!-- 10. OFFBOARDING PIPELINE -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>👋 Offboarding Pipeline</span><span>Next 30 Days</span></div>
-            <div id="offboardingList"></div>
-        </div>
-        
-        <!-- 11. DEPARTMENT HEADCOUNT -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>📊 Department Headcount</span><span>Budget vs Actual</span></div>
-            <canvas id="headcountChart" height="180"></canvas>
-        </div>
-        
-        <!-- 12. SECURITY INCIDENTS -->
-        <div class="dashboard-card">
-            <div class="card-title"><span>🛡️ Security Incidents (Last 30 Days)</span><span>Phishing Alerts: 23</span></div>
-            <div id="securityIncidentsList"></div>
+        <!-- GitHub Link -->
+        <div style="text-align: center; margin: 30px 0;">
+            <a href="https://github.com/israrsadaq057-art/AD-Automation-Suite" class="btn" target="_blank">📁 View Complete Source Code on GitHub</a>
         </div>
     </div>
     
-    <!-- Footer -->
     <div class="footer">
-        <p>Built by Israr Sadaq | Network Engineer & Automation Specialist | Berlin, Germany</p>
-        <p>📧 israrsadaq057@gmail.com | 🔗 github.com/israrsadaq057-art</p>
-        <p>Last updated: <span id="lastUpdated">Loading...</span></p>
+        <p>© 2026 Israr Sadaq | Built with PowerShell & HTML/CSS/JS | Resource Academia International</p>
+        <p>📍 Berlin, Germany | 📧 israrsadaq057@gmail.com | 📱 +49 152525267799</p>
     </div>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-    // Enterprise Data
-    const enterpriseData = {
-        noticePeriod: [
-            { name: "Sarah Ahmed", department: "Finance", role: "Accountant", lastDay: "2026-04-15", reason: "New Opportunity" },
-            { name: "Omar Khan", department: "Marketing", role: "Marketing Specialist", lastDay: "2026-04-30", reason: "Relocation" },
-            { name: "Fatima Zahra", department: "Teachers", role: "Lecturer", lastDay: "2026-05-10", reason: "Higher Studies" }
-        ],
-        probation: [
-            { name: "Ali Raza", department: "IT", role: "Network Engineer", startDate: "2026-01-15", endDate: "2026-04-15", progress: 75 },
-            { name: "Sana Khan", department: "Marketing", role: "Digital Marketer", startDate: "2026-02-01", endDate: "2026-05-01", progress: 60 },
-            { name: "Usman Malik", department: "Finance", role: "Junior Accountant", startDate: "2026-01-20", endDate: "2026-04-20", progress: 70 },
-            { name: "Zara Ahmed", department: "IT", role: "Help Desk", startDate: "2026-03-01", endDate: "2026-06-01", progress: 40 },
-            { name: "Bilal Hassan", department: "Admin", role: "Admin Assistant", startDate: "2026-02-15", endDate: "2026-05-15", progress: 55 }
-        ],
-        anniversaries: [
-            { name: "Dr. Muhammad Raza", department: "Teachers", years: 5, date: "2026-04-10" },
-            { name: "Hina Tariq", department: "Admin", years: 3, date: "2026-04-15" },
-            { name: "Ahmed Hassan", department: "IT", years: 8, date: "2026-04-20" },
-            { name: "Saima Akhtar", department: "Finance", years: 2, date: "2026-04-25" }
-        ],
-        tickets: [
-            { id: "INC-001", title: "VPN Connection Issue", priority: "High", status: "In Progress", age: "2 days" },
-            { id: "INC-002", title: "Laptop Not Booting", priority: "High", status: "Assigned", age: "1 day" },
-            { id: "INC-003", title: "Software Installation", priority: "Medium", status: "Pending", age: "3 days" },
-            { id: "INC-004", title: "Email Sync Problem", priority: "Medium", status: "In Progress", age: "1 day" },
-            { id: "INC-005", title: "Printer Not Working", priority: "Low", status: "Scheduled", age: "5 days" }
-        ],
-        assets: [
-            { type: "Laptop", model: "Dell XPS 15", assigned: "Ahmed Hassan", warrantyExpiry: "2026-12-31" },
-            { type: "Laptop", model: "MacBook Pro", assigned: "Fatima Ali", warrantyExpiry: "2026-08-15" },
-            { type: "Monitor", model: "Dell 27\"", assigned: "Omar Khan", warrantyExpiry: "2026-06-30" },
-            { type: "Phone", model: "iPhone 14", assigned: "Sara Ahmed", warrantyExpiry: "2026-05-20" }
-        ],
-        licenses: [
-            { name: "Microsoft 365 E5", seats: 85, expiry: "2026-05-31", cost: "€12,750/year" },
-            { name: "Adobe Creative Cloud", seats: 12, expiry: "2026-04-15", cost: "€3,600/year" },
-            { name: "Cisco AnyConnect", seats: 50, expiry: "2026-06-30", cost: "€5,000/year" },
-            { name: "Zoom Business", seats: 30, expiry: "2026-04-30", cost: "€2,400/year" }
-        ],
-        accessRequests: [
-            { requester: "Ali Raza", resource: "Finance SharePoint", approver: "Omar Malik", pending: "3 days" },
-            { requester: "Sana Khan", resource: "VPN Access", approver: "IT Admin", pending: "2 days" },
-            { requester: "Usman Malik", resource: "HR Database", approver: "Hina Tariq", pending: "5 days" }
-        ],
-        compliance: [
-            { name: "GDPR Training", completion: 98, dueDate: "2026-04-30" },
-            { name: "Security Awareness", completion: 92, dueDate: "2026-04-15" },
-            { name: "Data Protection", completion: 88, dueDate: "2026-05-15" }
-        ],
-        onboarding: [
-            { name: "Ayesha Riaz", role: "System Engineer", department: "IT", startDate: "2026-04-01" },
-            { name: "Hamza Ali", role: "Content Creator", department: "Marketing", startDate: "2026-04-10" },
-            { name: "Nadia Shah", role: "Accountant", department: "Finance", startDate: "2026-04-15" }
-        ],
-        offboarding: [
-            { name: "Sarah Ahmed", department: "Finance", role: "Accountant", lastDay: "2026-04-15", status: "Exit Interview Scheduled" },
-            { name: "Omar Khan", department: "Marketing", role: "Specialist", lastDay: "2026-04-30", status: "Asset Recovery Pending" }
-        ],
-        departmentCounts: { "IT": 18, "Finance": 14, "Marketing": 15, "Teachers": 28, "Students": 0, "Admin": 10 },
-        securityIncidents: [
-            { type: "Phishing Attempt", count: 12, resolved: 10, trend: "down" },
-            { type: "Suspicious Login", count: 8, resolved: 7, trend: "up" },
-            { type: "Malware Detection", count: 3, resolved: 3, trend: "down" }
-        ]
-    };
-    
-    function updateDashboard() {
-        document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
-        
-        // Notice Period List
-        document.getElementById('noticePeriodList').innerHTML = enterpriseData.noticePeriod.map(e => `
-            <div class="status-item">
-                <div><strong>${e.name}</strong><br><small>${e.role} | ${e.department}</small></div>
-                <div class="status-badge status-notice">Last Day: ${e.lastDay}</div>
+    <!-- Modal for Employee Details -->
+    <div id="employeeModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalName">Employee Details</h2>
+                <button class="close-modal" onclick="closeModal()">&times;</button>
             </div>
-        `).join('');
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Complete Employee Database with all details
+        const employeeDatabase = {
+            "Ahmed Hassan": { id: "EMP001", username: "ahmed.hassan", title: "IT Director", department: "IT", email: "ahmed.hassan@resourceacademia.local", phone: "+92-51-1234567", joinDate: "2020-01-15", manager: "CEO", office: "Islamabad-Head Office", laptop: "Dell Precision 5560", monitor: "Dell U2723QE 27\"", phoneDevice: "iPhone 14 Pro", attendance: { present: 57, absent: 1, leave: 4, late: 1, rate: "90%" } },
+            "Fatima Ali": { id: "EMP002", username: "fatima.ali", title: "Network Administrator", department: "IT", email: "fatima.ali@resourceacademia.local", phone: "+92-51-1234568", joinDate: "2021-03-01", manager: "Ahmed Hassan", office: "Islamabad-Head Office", laptop: "MacBook Pro 14\" M2", monitor: "LG 27\" 4K", phoneDevice: "iPhone 14", attendance: { present: 60, absent: 0, leave: 2, late: 0, rate: "97%" } },
+            "Omar Khan": { id: "EMP003", username: "omar.khan", title: "System Administrator", department: "IT", email: "omar.khan@resourceacademia.local", phone: "+92-51-1234569", joinDate: "2021-06-15", manager: "Ahmed Hassan", office: "Islamabad-Head Office", laptop: "HP EliteBook 840 G8", monitor: "HP 27\"", phoneDevice: "Samsung S23", attendance: { present: 55, absent: 3, leave: 4, late: 3, rate: "89%" } },
+            "Sara Ahmed": { id: "EMP004", username: "sara.ahmed", title: "Help Desk Lead", department: "IT", email: "sara.ahmed@resourceacademia.local", phone: "+92-51-1234570", joinDate: "2022-01-10", manager: "Ahmed Hassan", office: "Islamabad-Head Office", laptop: "Dell Latitude 7430", monitor: "Dell 24\"", phoneDevice: "iPhone 13", attendance: { present: 62, absent: 0, leave: 0, late: 0, rate: "100%" } },
+            "Usman Malik": { id: "EMP005", username: "usman.malik", title: "Network Engineer", department: "IT", email: "usman.malik@resourceacademia.local", phone: "+92-51-1234571", joinDate: "2023-03-20", manager: "Fatima Ali", office: "Islamabad-Head Office", laptop: "Lenovo ThinkPad X1", monitor: "Lenovo 27\"", phoneDevice: "Google Pixel 7", attendance: { present: 52, absent: 6, leave: 4, late: 5, rate: "84%" } },
+            "Omar Malik": { id: "EMP006", username: "omar.malik", title: "Finance Director", department: "Finance", email: "omar.malik@resourceacademia.local", phone: "+92-51-1234577", joinDate: "2020-01-15", manager: "CEO", office: "Islamabad-Head Office", laptop: "Dell Precision 5560", monitor: "Dell U2723QE", phoneDevice: "iPhone 14 Pro", attendance: { present: 58, absent: 1, leave: 3, late: 0, rate: "93%" } },
+            "Zain Malik": { id: "EMP007", username: "zain.malik", title: "Marketing Director", department: "Marketing", email: "zain.malik@resourceacademia.local", phone: "+92-51-1234587", joinDate: "2020-01-15", manager: "CEO", office: "Islamabad-Head Office", laptop: "MacBook Pro", monitor: "LG 27\"", phoneDevice: "iPhone 14", attendance: { present: 59, absent: 1, leave: 2, late: 1, rate: "95%" } },
+            "Dr. Muhammad Raza": { id: "EMP008", username: "dr.muhammad.raza", title: "Professor Computer Science", department: "Teachers", email: "muhammad.raza@resourceacademia.local", phone: "+92-51-1234597", joinDate: "2018-08-15", manager: "Dean of Faculty", office: "Islamabad-Campus", laptop: "HP EliteBook", monitor: "HP 24\"", phoneDevice: "Samsung S22", attendance: { present: 61, absent: 0, leave: 1, late: 0, rate: "98%" } },
+            "Hina Tariq": { id: "EMP009", username: "hina.tariq", title: "HR Director", department: "Admin", email: "hina.tariq@resourceacademia.local", phone: "+92-51-1234627", joinDate: "2019-06-01", manager: "CEO", office: "Islamabad-Head Office", laptop: "Dell Latitude", monitor: "Dell 24\"", phoneDevice: "iPhone 13", attendance: { present: 60, absent: 0, leave: 2, late: 0, rate: "97%" } }
+        };
         
-        // Probation List
-        document.getElementById('probationList').innerHTML = enterpriseData.probation.map(p => `
-            <div class="status-item">
-                <div><strong>${p.name}</strong><br><small>${p.role} | ${p.department}</small></div>
-                <div>${p.progress}% complete</div>
-            </div>
-        `).join('');
+        // Department Data
+        const departments = {
+            "IT": { count: 15, color: "#667eea", users: ["Ahmed Hassan (IT Director)", "Fatima Ali (Network Administrator)", "Omar Khan (System Administrator)", "Sara Ahmed (Help Desk Lead)", "Usman Malik (Network Engineer)", "Zara Khan (System Engineer)", "Bilal Hassan (Help Desk Technician)", "Ayesha Riaz (IT Support)", "Hamza Ali (Database Administrator)", "Sana Khan (Security Analyst)", "Ali Raza (Cloud Engineer)", "Hina Tariq (DevOps Engineer)", "Imran Ali (IT Project Manager)", "Rabia Khan (Business Analyst)", "Zain Malik (IT Trainer)"] },
+            "Finance": { count: 12, color: "#f093fb", users: ["Omar Malik (Finance Director)", "Saima Akhtar (Senior Accountant)", "Ali Raza (Accountant)", "Nadia Shah (Payroll Specialist)", "Zain Malik (Auditor)", "Sana Ahmed (Budget Analyst)", "Hina Tariq (Tax Specialist)", "Usman Chaudhry (Accounts Receivable)", "Rabia Khan (Accounts Payable)", "Imran Ali (Financial Analyst)", "Bilal Hassan (Treasury Manager)", "Fatima Zahra (Risk Analyst)"] },
+            "Marketing": { count: 12, color: "#4facfe", users: ["Zain Malik (Marketing Director)", "Ayesha Riaz (Digital Marketing Manager)", "Hamza Ali (Content Creator)", "Sana Khan (Social Media Manager)", "Bilal Hassan (SEO Specialist)", "Fatima Zahra (Graphic Designer)", "Ali Hassan (Video Editor)", "Sara Ahmed (Email Marketing Specialist)", "Usman Malik (Marketing Analyst)", "Zara Khan (Brand Manager)", "Omar Khan (PR Specialist)", "Nadia Shah (Market Research Analyst)"] },
+            "Teachers": { count: 20, color: "#43e97b", users: ["Dr. Muhammad Raza (Professor CS)", "Ms. Sara Ahmed (Senior Lecturer IT)", "Dr. Ali Hassan (Professor Mathematics)", "Mr. Khalid Malik (Lecturer Networking)", "Ms. Fatima Zahra (Lecturer Programming)", "Dr. Ayesha Riaz (Associate Professor English)", "Dr. Omar Khan (Professor Physics)", "Mr. Hamza Ali (Lecturer Mathematics)", "Ms. Sana Khan (Lecturer English)", "Dr. Bilal Hassan (Associate Professor CS)"] },
+            "Students": { count: 35, color: "#fa709a", users: ["Ali Raza (BS CS)", "Fatima Khan (BS IT)", "Omar Malik (BS SE)", "Sara Ahmed (BS AI)", "Hamza Ali (BS DS)", "Ayesha Riaz (BS Cyber Security)", "Bilal Hassan (MS CS)", "Zara Khan (MS IT)", "Usman Shah (PhD CS)", "Hina Malik (BS Economics)"] },
+            "Admin": { count: 6, color: "#30cfd0", users: ["Hina Tariq (HR Director)", "Usman Chaudhry (Admin Officer)", "Rabia Khan (Receptionist)", "Imran Ali (Facility Manager)", "Sana Khan (HR Generalist)", "Bilal Hassan (Admin Assistant)"] }
+        };
         
-        // Anniversaries
-        document.getElementById('anniversaryList').innerHTML = enterpriseData.anniversaries.map(a => `
-            <div class="status-item">
-                <div><strong>${a.name}</strong><br><small>${a.department} | ${a.years} years</small></div>
-                <div class="status-badge status-active">🎉 ${a.date}</div>
-            </div>
-        `).join('');
+        const groups = [
+            { name: "IT_Admins", members: 15, description: "Full IT administration rights" },
+            { name: "Network_Admins", members: 8, description: "Network device management" },
+            { name: "Help_Desk", members: 5, description: "User support staff" },
+            { name: "Finance_Staff", members: 12, description: "Financial systems access" },
+            { name: "Marketing_Staff", members: 12, description: "Marketing tools access" },
+            { name: "Faculty", members: 20, description: "Teaching resources access" },
+            { name: "Students", members: 35, description: "Lab and library access" },
+            { name: "Admin_Staff", members: 6, description: "Administrative systems access" }
+        ];
         
-        // Tickets
-        document.getElementById('ticketList').innerHTML = enterpriseData.tickets.map(t => `
-            <div class="status-item ticket-priority-${t.priority.toLowerCase()}">
-                <div><strong>${t.id}</strong><br><small>${t.title}</small></div>
-                <div><span class="status-badge status-${t.priority === 'High' ? 'danger' : t.priority === 'Medium' ? 'warning' : 'active'}">${t.priority}</span><br><small>${t.age}</small></div>
-            </div>
-        `).join('');
+        // Function to show employee modal
+        function showEmployee(name) {
+            const emp = employeeDatabase[name];
+            if (!emp) {
+                // If not in database, show generic info
+                document.getElementById('modalBody').innerHTML = `
+                    <div class="info-section">
+                        <div class="info-row"><div class="info-label">Full Name</div><div class="info-value">${name}</div></div>
+                        <div class="info-row"><div class="info-label">Department</div><div class="info-value">View full profile in complete database</div></div>
+                        <div class="info-row"><div class="info-label">Status</div><div class="info-value"><span class="badge badge-active">Active</span></div></div>
+                    </div>
+                `;
+                document.getElementById('modalName').textContent = name;
+                document.getElementById('employeeModal').style.display = 'flex';
+                return;
+            }
+            
+            const attendanceRate = emp.attendance.rate;
+            const attendancePercent = parseInt(attendanceRate);
+            
+            document.getElementById('modalBody').innerHTML = `
+                <div class="info-section">
+                    <div class="info-row"><div class="info-label">Employee ID</div><div class="info-value">${emp.id}</div></div>
+                    <div class="info-row"><div class="info-label">Username</div><div class="info-value">${emp.username}</div></div>
+                    <div class="info-row"><div class="info-label">Title</div><div class="info-value">${emp.title}</div></div>
+                    <div class="info-row"><div class="info-label">Department</div><div class="info-value">${emp.department}</div></div>
+                    <div class="info-row"><div class="info-label">Email</div><div class="info-value">${emp.email}</div></div>
+                    <div class="info-row"><div class="info-label">Phone</div><div class="info-value">${emp.phone}</div></div>
+                    <div class="info-row"><div class="info-label">Join Date</div><div class="info-value">${emp.joinDate}</div></div>
+                    <div class="info-row"><div class="info-label">Manager</div><div class="info-value">${emp.manager}</div></div>
+                    <div class="info-row"><div class="info-label">Office</div><div class="info-value">${emp.office}</div></div>
+                </div>
+                
+                <div class="info-section">
+                    <div class="info-row"><div class="info-label">💻 Laptop</div><div class="info-value">${emp.laptop}</div></div>
+                    <div class="info-row"><div class="info-label">🖥️ Monitor</div><div class="info-value">${emp.monitor}</div></div>
+                    <div class="info-row"><div class="info-label">📱 Phone</div><div class="info-value">${emp.phoneDevice}</div></div>
+                </div>
+                
+                <div class="info-section">
+                    <div class="info-row"><div class="info-label">✅ Present</div><div class="info-value">${emp.attendance.present} days</div></div>
+                    <div class="info-row"><div class="info-label">❌ Absent</div><div class="info-value">${emp.attendance.absent} days</div></div>
+                    <div class="info-row"><div class="info-label">🏖️ Leave</div><div class="info-value">${emp.attendance.leave} days</div></div>
+                    <div class="info-row"><div class="info-label">⏰ Late</div><div class="info-value">${emp.attendance.late} days</div></div>
+                    <div class="attendance-bar"><div class="attendance-fill" style="width: ${attendancePercent}%;"></div></div>
+                    <div class="info-row"><div class="info-label">📊 Attendance Rate</div><div class="info-value"><strong>${emp.attendance.rate}</strong></div></div>
+                </div>
+            `;
+            document.getElementById('modalName').textContent = emp.fullName || name;
+            document.getElementById('employeeModal').style.display = 'flex';
+        }
         
-        // Assets
-        document.getElementById('assetList').innerHTML = enterpriseData.assets.map(a => `
-            <div class="status-item">
-                <div><strong>${a.type}</strong><br><small>${a.model} | ${a.assigned}</small></div>
-                <div>Warranty: ${a.warrantyExpiry}</div>
-            </div>
-        `).join('');
+        function closeModal() {
+            document.getElementById('employeeModal').style.display = 'none';
+        }
         
-        // Licenses
-        document.getElementById('licenseList').innerHTML = enterpriseData.licenses.map(l => `
-            <div class="status-item">
-                <div><strong>${l.name}</strong><br><small>${l.seats} seats | ${l.cost}</small></div>
-                <div class="status-badge ${l.expiry < '2026-05-01' ? 'status-notice' : 'status-active'}">Expires: ${l.expiry}</div>
-            </div>
-        `).join('');
+        // Render Departments with clickable users
+        const deptGrid = document.getElementById('departmentGrid');
+        const deptColors = { IT: 'it', Finance: 'finance', Marketing: 'marketing', Teachers: 'teachers', Students: 'students', Admin: 'admin' };
         
-        // Access Requests
-        document.getElementById('accessRequestsList').innerHTML = enterpriseData.accessRequests.map(a => `
-            <div class="status-item">
-                <div><strong>${a.requester}</strong><br><small>Request: ${a.resource}</small></div>
-                <div>Approver: ${a.approver}<br><small>Pending: ${a.pending}</small></div>
-            </div>
-        `).join('');
+        for (const [dept, data] of Object.entries(departments)) {
+            const userList = data.users.slice(0, 8).map(user => {
+                const userName = user.split('(')[0].trim();
+                const userTitle = user.split('(')[1]?.replace(')', '') || '';
+                return `<li onclick="showEmployee('${userName}')">
+                            <div><span class="user-name">${userName}</span><br><span class="user-title">${userTitle}</span></div>
+                            <span class="badge badge-active">Active</span>
+                        </li>`;
+            }).join('');
+            const moreCount = data.users.length - 8;
+            const moreHtml = moreCount > 0 ? `<li style="text-align: center; color: #667eea; font-size: 12px; cursor: default;">+${moreCount} more users...</li>` : '';
+            
+            deptGrid.innerHTML += `
+                <div class="department-card">
+                    <div class="department-header ${deptColors[dept]}">
+                        <div class="department-name">${dept}</div>
+                        <div class="department-count">${data.count} users</div>
+                    </div>
+                    <div class="department-body">
+                        <ul class="user-list">
+                            ${userList}
+                            ${moreHtml}
+                        </ul>
+                    </div>
+                </div>
+            `;
+        }
         
-        // Compliance
-        document.getElementById('complianceList').innerHTML = enterpriseData.compliance.map(c => `
-            <div class="status-item">
-                <div><strong>${c.name}</strong></div>
-                <div>${c.completion}% complete</div>
-            </div>
-        `).join('');
+        // Render Groups
+        const groupsGrid = document.getElementById('groupsGrid');
+        groups.forEach(group => {
+            groupsGrid.innerHTML += `
+                <div class="group-card">
+                    <div class="group-name">👥 ${group.name}</div>
+                    <div class="group-members">${group.members} members • ${group.description}</div>
+                </div>
+            `;
+        });
         
-        // Onboarding
-        document.getElementById('onboardingList').innerHTML = enterpriseData.onboarding.map(o => `
-            <div class="status-item">
-                <div><strong>${o.name}</strong><br><small>${o.role} | ${o.department}</small></div>
-                <div class="status-badge status-active">Starts: ${o.startDate}</div>
-            </div>
-        `).join('');
+        // Charts
+        const deptNames = Object.keys(departments);
+        const deptCounts = deptNames.map(d => departments[d].count);
+        const deptColorsArr = ['#667eea', '#f093fb', '#4facfe', '#43e97b', '#fa709a', '#30cfd0'];
         
-        // Offboarding
-        document.getElementById('offboardingList').innerHTML = enterpriseData.offboarding.map(o => `
-            <div class="status-item">
-                <div><strong>${o.name}</strong><br><small>${o.role} | ${o.department}</small></div>
-                <div>${o.status}</div>
-            </div>
-        `).join('');
-        
-        // Security Incidents
-        document.getElementById('securityIncidentsList').innerHTML = enterpriseData.securityIncidents.map(s => `
-            <div class="status-item">
-                <div><strong>${s.type}</strong></div>
-                <div>${s.count} incidents | ${s.resolved} resolved</div>
-            </div>
-        `).join('');
-        
-        // Chart
-        new Chart(document.getElementById('headcountChart'), {
+        new Chart(document.getElementById('deptChart'), {
             type: 'bar',
-            data: {
-                labels: Object.keys(enterpriseData.departmentCounts),
-                datasets: [{ label: 'Employees', data: Object.values(enterpriseData.departmentCounts), backgroundColor: '#667eea' }]
-            },
+            data: { labels: deptNames, datasets: [{ label: 'Users', data: deptCounts, backgroundColor: deptColorsArr, borderRadius: 10 }] },
             options: { responsive: true, maintainAspectRatio: true, plugins: { legend: { position: 'top' } } }
         });
-    }
-    
-    updateDashboard();
-</script>
+        
+        const topGroups = groups.slice(0, 8);
+        new Chart(document.getElementById('groupChart'), {
+            type: 'pie',
+            data: { labels: topGroups.map(g => g.name), datasets: [{ data: topGroups.map(g => g.members), backgroundColor: ['#1e3c72', '#2a5298', '#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe'] }] },
+            options: { responsive: true, maintainAspectRatio: true, plugins: { legend: { position: 'right', labels: { font: { size: 10 } } } } }
+        });
+        
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target === document.getElementById('employeeModal')) {
+                closeModal();
+            }
+        };
+    </script>
 </body>
 </html>
